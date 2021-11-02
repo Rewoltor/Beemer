@@ -1,5 +1,7 @@
 <?php
 
+//this file handles the conenction to the database I user xampp for this purpose
+
 $serverName = "eu-cdbr-west-01.cleardb.com";
 $dBUsername = "b6d7d2af4e92a7";
 $dBPassword = "eca95a20";

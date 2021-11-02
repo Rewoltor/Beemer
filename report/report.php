@@ -1,5 +1,5 @@
 <?php
-require_once '../dbh.inc.php';
+require_once 'dbh.inc.php';
 require_once 'report.inc.php';
 $userId = $_SESSION['userId'];
 ?>
