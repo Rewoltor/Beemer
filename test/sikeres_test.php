@@ -34,6 +34,7 @@
         }
 
 ?>
+
 <form action="Includes/save_result.inc.php" method="post">
     <div class="register-button">
         <input type="submit" name="submit" class="inputButton"> <!-- a "name" számít a .php-nál -->
