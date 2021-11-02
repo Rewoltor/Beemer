@@ -18,4 +18,4 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 echo "Nagyon megy a dolog";
 ?>
 
-<a href="test/regist/short/register.php">What?S</a>
+<a href="regist/short/register.php">What?S</a>
