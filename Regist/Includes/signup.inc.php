@@ -9,7 +9,7 @@ if (isset($_POST["submit"])) {
     $sex = $_POST["sex"];
     $birthday = $_POST["my-input"];
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.inc.php';
 
     if (emptyInputSignup($email, $vez_nev, $ker_nev, $pwd, $pwdrepeat , $sex, $phone_number, $birthday) !== false) {

@@ -23,7 +23,7 @@ if (isset($_POST["submit1"])) {
     $q10 = $_POST["q10"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest1($conn, $userId, $q1, $q2, $q3, $q4, $q5, $q6, $q7, $q8, $q9, $q10);
@@ -45,7 +45,7 @@ if (isset($_POST["submit1"])) {
     $q20 = $_POST["q20"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest2($conn, $userId, $q11, $q12, $q13, $q14, $q15, $q16, $q17, $q18, $q19, $q20);
@@ -66,7 +66,7 @@ if (isset($_POST["submit1"])) {
     $q30 = $_POST["q30"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest3($conn, $userId, $q21, $q22, $q23, $q24, $q25, $q26, $q27, $q28, $q29, $q30);
@@ -87,7 +87,7 @@ if (isset($_POST["submit1"])) {
     $q40 = $_POST["q40"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest4($conn, $userId, $q31, $q32, $q33, $q34, $q35, $q36, $q37, $q38, $q39, $q40);
@@ -108,7 +108,7 @@ if (isset($_POST["submit1"])) {
     $q50 = $_POST["q50"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest5($conn, $userId, $q41, $q42, $q43, $q44, $q45, $q46, $q47, $q48, $q49, $q50);
@@ -129,7 +129,7 @@ if (isset($_POST["submit1"])) {
     $q60 = $_POST["q60"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest6($conn, $userId, $q51, $q52, $q53, $q54, $q55, $q56, $q57, $q58, $q59, $q60);
@@ -150,7 +150,7 @@ if (isset($_POST["submit1"])) {
     $q70 = $_POST["q70"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest7($conn, $userId, $q61, $q62, $q63, $q64, $q65, $q66, $q67, $q68, $q69, $q70);
@@ -171,7 +171,7 @@ if (isset($_POST["submit1"])) {
     $q80 = $_POST["q80"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest8($conn, $userId, $q71, $q72, $q73, $q74, $q75, $q76, $q77, $q78, $q79, $q80);
@@ -192,7 +192,7 @@ if (isset($_POST["submit1"])) {
     $q90 = $_POST["q90"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest9($conn, $userId, $q81, $q82, $q83, $q84, $q85, $q86, $q87, $q88, $q89, $q90);
@@ -213,7 +213,7 @@ if (isset($_POST["submit1"])) {
     $q100 = $_POST["q100"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest10($conn, $userId, $q91, $q92, $q93, $q94, $q95, $q96, $q97, $q98, $q99, $q100);
@@ -233,7 +233,7 @@ if (isset($_POST["submit1"])) {
     $co10 = $_POST["co10"];
 
 
-    require_once 'dbh.inc.php';
+    require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
     createTest11($conn, $userId, $co1, $co2, $co3, $co4, $co5, $co6, $co7, $co8, $co9, $co10);
