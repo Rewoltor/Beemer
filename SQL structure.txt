@@ -1,0 +1,255 @@
+CREATE TABLE users (
+	userId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    usersName varchar(128) NOT NULL,
+    usersEmail varchar(128) NOT NULL,
+    usersUid varchar(128) NOT NULL,
+    usersPwd varchar(128) NOT NULL  
+);
+
+
+
+
+
+CREATE TABLE users (
+	userId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    usersEmail varchar(128) NOT NULL,
+    usersVez_nev varchar(128) NOT NULL,
+    usersKer_nev varchar(128) NOT NULL,
+    usersPwd varchar(128) NOT NULL,
+    userssex varchar(128) NOT NULL,
+    usersphone_number varchar(128) NOT NULL,  
+    usersbirthday varchar(128) NOT NULL,
+    registerTime varchar(128) NOT NULL
+);
+
+
+
+
+CREATE TABLE test1 (
+    usersEmail varchar(128) NOT NULL,
+    test1q1 varchar(128) NOT NULL,
+    test1q2 varchar(128) NOT NULL,
+    test1q3 varchar(128) NOT NULL,
+    test1q4 varchar(128) NOT NULL,
+    test1q5 varchar(128) NOT NULL,
+    test1q6 varchar(128) NOT NULL,
+    test1q7 varchar(128) NOT NULL,
+    test1q8 varchar(128) NOT NULL,
+    test1q9 varchar(128) NOT NULL,
+    test1q10 varchar(128) NOT NULL
+);
+
+CREATE TABLE result1 AS 
+  (SELECT first.*, 
+          second.f1, 
+          second.f2, 
+          second.f3 
+   FROM   first 
+          INNER JOIN second 
+                  ON first.id = second.id);
+
+
+CREATE TABLE users (
+	userId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    username varchar(128) NOT NULL,
+    email varchar(128) NOT NULL,
+    password varchar(128) NOT NULL
+);
+
+
+
+
+CREATE TABLE test1 (
+    userId varchar(128) NOT NULL,
+    test1q1 varchar(128) NOT NULL,
+    test1q2 varchar(128) NOT NULL,
+    test1q3 varchar(128) NOT NULL,
+    test1q4 varchar(128) NOT NULL,
+    test1q5 varchar(128) NOT NULL,
+    test1q6 varchar(128) NOT NULL,
+    test1q7 varchar(128) NOT NULL,
+    test1q8 varchar(128) NOT NULL,
+    test1q9 varchar(128) NOT NULL,
+    test1q10 varchar(128) NOT NULL,
+    test1q11 varchar(128) NOT NULL,
+    test1q12 varchar(128) NOT NULL,
+    test1q13 varchar(128) NOT NULL,
+    test1q14 varchar(128) NOT NULL,
+    test1q15 varchar(128) NOT NULL,
+    test1q16 varchar(128) NOT NULL,
+    test1q17 varchar(128) NOT NULL,
+    test1q18 varchar(128) NOT NULL,
+    test1q19 varchar(128) NOT NULL,
+    test1q20 varchar(128) NOT NULL,
+    test1q21 varchar(128) NOT NULL,
+    test1q22 varchar(128) NOT NULL,
+    test1q23 varchar(128) NOT NULL,
+    test1q24 varchar(128) NOT NULL,
+    test1q25 varchar(128) NOT NULL,
+    test1q26 varchar(128) NOT NULL,
+    test1q27 varchar(128) NOT NULL,
+    test1q28 varchar(128) NOT NULL,
+    test1q29 varchar(128) NOT NULL,
+    test1q30 varchar(128) NOT NULL,
+    test1q31 varchar(128) NOT NULL,
+    test1q32 varchar(128) NOT NULL,
+    test1q33 varchar(128) NOT NULL,
+    test1q34 varchar(128) NOT NULL,
+    test1q35 varchar(128) NOT NULL,
+    test1q36 varchar(128) NOT NULL,
+    test1q37 varchar(128) NOT NULL,
+    test1q38 varchar(128) NOT NULL,
+    test1q39 varchar(128) NOT NULL,
+    test1q40 varchar(128) NOT NULL,
+    test1q41 varchar(128) NOT NULL,
+    test1q42 varchar(128) NOT NULL,
+    test1q43 varchar(128) NOT NULL,
+    test1q44 varchar(128) NOT NULL,
+    test1q45 varchar(128) NOT NULL,
+    test1q46 varchar(128) NOT NULL,
+    test1q47 varchar(128) NOT NULL,
+    test1q48 varchar(128) NOT NULL,
+    test1q49 varchar(128) NOT NULL,
+    test1q50 varchar(128) NOT NULL,
+    test1q51 varchar(128) NOT NULL,
+    test1q52 varchar(128) NOT NULL,
+    test1q53 varchar(128) NOT NULL,
+    test1q54 varchar(128) NOT NULL,
+    test1q55 varchar(128) NOT NULL,
+    test1q56 varchar(128) NOT NULL,
+    test1q57 varchar(128) NOT NULL,
+    test1q58 varchar(128) NOT NULL,
+    test1q59 varchar(128) NOT NULL,
+    test1q60 varchar(128) NOT NULL,
+    test1q61 varchar(128) NOT NULL,
+    test1q62 varchar(128) NOT NULL,
+    test1q63 varchar(128) NOT NULL,
+    test1q64 varchar(128) NOT NULL,
+    test1q65 varchar(128) NOT NULL,
+    test1q66 varchar(128) NOT NULL,
+    test1q67 varchar(128) NOT NULL,
+    test1q68 varchar(128) NOT NULL,
+    test1q69 varchar(128) NOT NULL,
+    test1q70 varchar(128) NOT NULL,
+    test1q71 varchar(128) NOT NULL,
+    test1q72 varchar(128) NOT NULL,
+    test1q73 varchar(128) NOT NULL,
+    test1q74 varchar(128) NOT NULL,
+    test1q75 varchar(128) NOT NULL,
+    test1q76 varchar(128) NOT NULL,
+    test1q77 varchar(128) NOT NULL,
+    test1q78 varchar(128) NOT NULL,
+    test1q79 varchar(128) NOT NULL,
+    test1q80 varchar(128) NOT NULL,
+    test1q81 varchar(128) NOT NULL,
+    test1q82 varchar(128) NOT NULL,
+    test1q83 varchar(128) NOT NULL,
+    test1q84 varchar(128) NOT NULL,
+    test1q85 varchar(128) NOT NULL,
+    test1q86 varchar(128) NOT NULL,
+    test1q87 varchar(128) NOT NULL,
+    test1q88 varchar(128) NOT NULL,
+    test1q89 varchar(128) NOT NULL,
+    test1q90 varchar(128) NOT NULL,
+    test1q91 varchar(128) NOT NULL,
+    test1q92 varchar(128) NOT NULL,
+    test1q93 varchar(128) NOT NULL,
+    test1q94 varchar(128) NOT NULL,
+    test1q95 varchar(128) NOT NULL,
+    test1q96 varchar(128) NOT NULL,
+    test1q97 varchar(128) NOT NULL,
+    test1q98 varchar(128) NOT NULL,
+    test1q99 varchar(128) NOT NULL,
+    test1q100 varchar(128) NOT NULL
+);
+
+
+
+CREATE TABLE t_results (
+    userId varchar(128) NOT NULL,
+    t_openness varchar(128) NOT NULL,
+    t_conscientiousness varchar(128) NOT NULL,
+    t_extroversion varchar(128) NOT NULL,
+    t_agreeableness varchar(128) NOT NULL,
+    t_neuroticism varchar(128) NOT NULL,
+    cognitrive varchar(128) NOT NULL
+);
+
+CREATE TABLE results (
+    userId varchar(128) NOT NULL,
+    cognitrive varchar(128) NOT NULL,
+    openness varchar(128) NOT NULL,
+    intellect varchar(128) NOT NULL,
+    industriousness varchar(128) NOT NULL,
+    orderliness varchar(128) NOT NULL,
+    enthusiasm varchar(128) NOT NULL,
+    assertiveness varchar(128) NOT NULL,
+    politeness varchar(128) NOT NULL,
+    compassion varchar(128) NOT NULL,
+    volatility varchar(128) NOT NULL,
+    withdrawal varchar(128) NOT NULL
+);
+
+CREATE TABLE test11 (
+    userId varchar(128) NOT NULL,
+    test1q101 varchar(128) NOT NULL,
+    test1q102 varchar(128) NOT NULL,
+    test1q103 varchar(128) NOT NULL,
+    test1q104 varchar(128) NOT NULL,
+    test1q105 varchar(128) NOT NULL,
+    test1q106 varchar(128) NOT NULL,
+    test1q107 varchar(128) NOT NULL,
+    test1q108 varchar(128) NOT NULL,
+    test1q109 varchar(128) NOT NULL,
+    test1q110 varchar(128) NOT NULL
+);
+
+
+
+CREATE TABLE cogn (
+    userId varchar(128) NOT NULL,
+    iq1 varchar(128) NOT NULL,
+    iq2 varchar(128) NOT NULL,
+    iq3 varchar(128) NOT NULL,
+    iq4 varchar(128) NOT NULL,
+    iq5 varchar(128) NOT NULL,
+    iq6 varchar(128) NOT NULL,
+    iq7 varchar(128) NOT NULL,
+    iq8 varchar(128) NOT NULL,
+    iq9 varchar(128) NOT NULL,
+    iq10 varchar(128) NOT NULL
+);
+
+CREATE TABLE test11 (
+    userId varchar(128) NOT NULL,
+    iq1 varchar(128) NOT NULL,
+    iq2 varchar(128) NOT NULL,
+    iq3 varchar(128) NOT NULL,
+    iq4 varchar(128) NOT NULL,
+    iq5 varchar(128) NOT NULL,
+    iq6 varchar(128) NOT NULL,
+    iq7 varchar(128) NOT NULL,
+    iq8 varchar(128) NOT NULL,
+    iq9 varchar(128) NOT NULL,
+    iq10 varchar(128) NOT NULL
+);
+
+CREATE TABLE test11 (
+    userId varchar(128) NOT NULL,
+    co1 varchar(128) NOT NULL,
+    co2 varchar(128) NOT NULL,
+    co3 varchar(128) NOT NULL,
+    co4 varchar(128) NOT NULL,
+    co5 varchar(128) NOT NULL,
+    co6 varchar(128) NOT NULL,
+    co7 varchar(128) NOT NULL,
+    co8 varchar(128) NOT NULL,
+    co9 varchar(128) NOT NULL,
+    co10 varchar(128) NOT NULL
+);
+
+
+CREATE TABLE test111 (
+    userId varchar(128) NOT NULL,
+    co1 varchar(128) NOT NULL
+);

@@ -1,0 +1,118 @@
+body{
+  font-family:arial;
+  font-size:15px;
+  line-height:1.6em;
+  background: #f4f4f4;
+}
+li{
+  list-style: none;
+}
+.container{
+  width:70%;
+  margin: 20px auto;
+  overflow: auto;
+}
+.pull-left{float:left;}
+.pull-right{float:right;}
+
+header{
+  background: #1f88f4;
+  color:#ffffff;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 16px;
+}
+footer{
+  background: #1f88f4;
+  color:#ffffff;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 15px;
+}
+
+questionForm.q1{
+  max-width: 50px;
+  max-width: 50px;
+}
+
+@media only screen and (max-width: 900px){
+  .container{
+    width:90%;
+  }
+}
+
+
+
+
+
+.q_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  max-height: 100%;
+  float:left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.top{
+  float:right;
+}
+.tbody{
+  max-width: 50%;
+}
+
+
+
+.inputi{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20%;
+  max-height: 100%; 
+}
+html, body {
+  font-size: 11px;
+  background-color: #dcdcdc;
+  margin: 0px;
+  width: 100%;
+}
+.qi_image{
+  max-width: 40%;
+  max-height: 70%;
+}
+
+
+body{
+  font-family:arial;
+  font-size:15px;
+  line-height:1.6em;
+}
+.container{
+  width:90%;
+  margin: 20px auto;
+  overflow: auto;
+  background: #f4f4f4;
+}
+.pull-left{float:left;}
+.pull-right{float:right;}
+
+header{
+  background: #1f88f4;
+  color:#ffffff;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 16px;
+}
+
+
+
+footer{
+  background: #1f88f4;
+  color:#ffffff;
+  padding: 5px 10px;
+  overflow: auto;
+  font-size: 15px;
+}

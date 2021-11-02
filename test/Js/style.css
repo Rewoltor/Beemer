@@ -1,0 +1,22 @@
+.image {
+  opacity: 0.8;
+  width: 200px;
+  height: 160px;
+  background-position: center center;
+  background-color: gray;
+  display: inline-block;
+  margin: 10px;
+}
+.image:hover {
+  opacity: 1;
+}
+.radio-img > input {
+  display: none;
+}
+.radio-img > .image {
+  cursor: pointer;
+  border: 2px solid black;
+}
+.radio-img > input:checked + .image {
+  border: 2px solid orange;
+}
