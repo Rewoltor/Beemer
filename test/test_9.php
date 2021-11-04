@@ -21,7 +21,7 @@
 
 
             <tr>
-                <td class="first-col">Könnyen kiborulok nagy eseményektől
+                <td class="first-col">Könnyen kiborulok eseményektől
                     <td><input type="radio" name="q81" value="1" id="q81"></td>
                     <td><input type="radio" name="q81" value="2" id="q81"></td>
                     <td><input type="radio" name="q81" value="3" id="q81"></td>
@@ -39,7 +39,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Gyakran halasztom el a döntéseimet
+                <td class="first-col">Halogatom el a döntéseimet
                     <td><input type="radio" name="q83" value="1" id="q83"></td>
                     <td><input type="radio" name="q83" value="2" id="q83"></td>
                     <td><input type="radio" name="q83" value="3" id="q83"></td>
@@ -48,7 +48,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nagyon gyakran szórakoztatom magamat és másokat
+                <td class="first-col">Gyakran szórakozom
                     <td><input type="radio" name="q84" value="1" id="q84"></td>
                     <td><input type="radio" name="q84" value="2" id="q84"></td>
                     <td><input type="radio" name="q84" value="3" id="q84"></td>
@@ -66,7 +66,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Könnyel leszek zaklatott
+                <td class="first-col">Könnyen fel lehet zaklatni
                     <td><input type="radio" name="q86" value="1" id="q86"></td>
                     <td><input type="radio" name="q86" value="2" id="q86"></td>
                     <td><input type="radio" name="q86" value="3" id="q86"></td>
@@ -84,7 +84,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Szeretek egy jó vitát
+                <td class="first-col">Azt gondolom, hogy a szabályok csak útmutatók
                     <td><input type="radio" name="q88" value="1" id="q88"></td>
                     <td><input type="radio" name="q88" value="2" id="q88"></td>
                     <td><input type="radio" name="q88" value="3" id="q88"></td>
@@ -93,7 +93,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Én vagyok az első aki cselekszik
+                <td class="first-col">Én vagyok az első, aki cselekszik
                     <td><input type="radio" name="q89" value="1" id="q89"></td>
                     <td><input type="radio" name="q89" value="2" id="q89"></td>
                     <td><input type="radio" name="q89" value="3" id="q89"></td>

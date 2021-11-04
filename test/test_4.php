@@ -57,7 +57,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Szeretek komplex problámákat megoldani
+                <td class="first-col">Szeretek megoldani komplex problémákat 
                     <td><input type="radio" name="q35" value="1" id="q35"></td>
                     <td><input type="radio" name="q35" value="2" id="q35"></td>
                     <td><input type="radio" name="q35" value="3" id="q35"></td>
@@ -75,7 +75,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Gyakran használok másokat a saját céljaimra
+                <td class="first-col">Kihasználok másokat a saját céljaimra
                     <td><input type="radio" name="q37" value="1" id="q37"></td>
                     <td><input type="radio" name="q37" value="2" id="q37"></td>
                     <td><input type="radio" name="q37" value="3" id="q37"></td>
@@ -84,7 +84,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Szeretek időbeosztás szerint élni
+                <td class="first-col">Időbeosztást követek
                     <td><input type="radio" name="q38" value="1" id="q38"></td>
                     <td><input type="radio" name="q38" value="2" id="q38"></td>
                     <td><input type="radio" name="q38" value="3" id="q38"></td>
@@ -93,7 +93,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Tudom, hogy kell elvarázsolni az emebreket
+                <td class="first-col">Tudom, hogy kell elvarázsolni az embereket
                     <td><input type="radio" name="q39" value="1" id="q39"></td>
                     <td><input type="radio" name="q39" value="2" id="q39"></td>
                     <td><input type="radio" name="q39" value="3" id="q39"></td>

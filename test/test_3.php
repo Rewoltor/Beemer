@@ -20,7 +20,7 @@
 
 
             <tr>
-                <td class="first-col">Kényelmesen érzem magamat nagy társaságban
+                <td class="first-col">Kellemes érzéseim vannak magammal kapcsolatban
                     <td><input type="radio" name="q21" value="1" id="q21"></td>
                     <td><input type="radio" name="q21" value="2" id="q21"></td>
                     <td><input type="radio" name="q21" value="3" id="q21"></td>
@@ -38,7 +38,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nehezem veszem rá magamat, hogy nekiálljak a munkának
+                <td class="first-col">Nehezem veszem rá magamat, hogy nekiálljak a dolgomnak
                     <td><input type="radio" name="q23" value="1" id="q23"></td>
                     <td><input type="radio" name="q23" value="2" id="q23"></td>
                     <td><input type="radio" name="q23" value="3" id="q23"></td>
@@ -47,7 +47,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Távolságot tartok az emberektől
+                <td class="first-col">Távolságot tartok az másoktól
                     <td><input type="radio" name="q24" value="1" id="q24"></td>
                     <td><input type="radio" name="q24" value="2" id="q24"></td>
                     <td><input type="radio" name="q24" value="3" id="q24"></td>
@@ -101,7 +101,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Imádok visszajelzést adni
+                <td class="first-col">Szeretsz gondolkodni a dolgokon
                     <td><input type="radio" name="q30" value="1" id="q30"></td>
                     <td><input type="radio" name="q30" value="2" id="q30"></td>
                     <td><input type="radio" name="q30" value="3" id="q30"></td>

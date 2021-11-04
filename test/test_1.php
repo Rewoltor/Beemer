@@ -57,7 +57,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Általában gyorsan megértem a dolgokat
+                <td class="first-col">Könnyen barátkozom
                     <td><input type="radio" name="q5" value="1" id="q5"></td>
                     <td><input type="radio" name="q5" value="2" id="q5"></td>
                     <td><input type="radio" name="q5" value="3" id="q5"></td>
@@ -75,7 +75,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Tisztelem a hatalommal rendelkező embereket
+                <td class="first-col">Tisztelem a hatalommal hatalmat
                     <td><input type="radio" name="q7" value="1" id="q7"></td>
                     <td><input type="radio" name="q7" value="2" id="q7"></td>
                     <td><input type="radio" name="q7" value="3" id="q7"></td>
@@ -93,7 +93,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Kezembe vaszem az irányítást
+                <td class="first-col">Kezembe veszem az irányítást
                     <td><input type="radio" name="q9" value="1" id="q9"></td>
                     <td><input type="radio" name="q9" value="2" id="q9"></td>
                     <td><input type="radio" name="q9" value="3" id="q9"></td>
@@ -102,7 +102,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Élvezem a természet szépségét1
+                <td class="first-col">Élvezem a természet szépségét
                     <td><input type="radio" name="q10" value="1" id="q10"></td>
                     <td><input type="radio" name="q10" value="2" id="q10"></td>
                     <td><input type="radio" name="q10" value="3" id="q10"></td>

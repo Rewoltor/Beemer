@@ -66,7 +66,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Könnyű összezevarni engem
+                <td class="first-col">Könnyű összezavarni engem
                     <td><input type="radio" name="q96" value="1" id="q96"></td>
                     <td><input type="radio" name="q96" value="2" id="q96"></td>
                     <td><input type="radio" name="q96" value="3" id="q96"></td>
@@ -75,7 +75,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Mások érdekeit tartom előtérben
+                <td class="first-col">Nem a saját érdekeimet tartom előtérben
                     <td><input type="radio" name="q97" value="1" id="q97"></td>
                     <td><input type="radio" name="q97" value="2" id="q97"></td>
                     <td><input type="radio" name="q97" value="3" id="q97"></td>
@@ -84,7 +84,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Mások érdekeit tartom előtérben
+                <td class="first-col">Minden egyes részletre odafigyelek
                     <td><input type="radio" name="q98" value="1" id="q98"></td>
                     <td><input type="radio" name="q98" value="2" id="q98"></td>
                     <td><input type="radio" name="q98" value="3" id="q98"></td>
@@ -102,7 +102,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Olyan dolgokat látok szépnek amiket mások nem vesznek észre
+                <td class="first-col">Olyan dolgokat látok szépnek, amiket mások nem vesznek észre
                     <td><input type="radio" name="q100" value="1" id="q100"></td>
                     <td><input type="radio" name="q100" value="2" id="q100"></td>
                     <td><input type="radio" name="q100" value="3" id="q100"></td>

@@ -21,7 +21,7 @@
 
 
             <tr>
-                <td class="first-col">Ritkán vagyok vagyok depressziós hangulatban
+                <td class="first-col">Ritkán érzem magam depressziósnak
                     <td><input type="radio" name="q41" value="1" id="q41"></td>
                     <td><input type="radio" name="q41" value="2" id="q41"></td>
                     <td><input type="radio" name="q41" value="3" id="q41"></td>
@@ -39,7 +39,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Mindig befejezem amit elkezdek
+                <td class="first-col">Befejezem, amit elkezdek
                     <td><input type="radio" name="q43" value="1" id="q43"></td>
                     <td><input type="radio" name="q43" value="2" id="q43"></td>
                     <td><input type="radio" name="q43" value="3" id="q43"></td>
@@ -48,7 +48,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Könnyen megtalálom aközös hangot másokkal
+                <td class="first-col">Könnyen megtalálom másokkal a közös hangot 
                     <td><input type="radio" name="q44" value="1" id="q44"></td>
                     <td><input type="radio" name="q44" value="2" id="q44"></td>
                     <td><input type="radio" name="q44" value="3" id="q44"></td>
@@ -57,7 +57,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Kerülöm a filozófiai kérdéseket és inkább csevegek
+                <td class="first-col">Kerülöm a filozofikus kérdéseket és inkább csevegek
                     <td><input type="radio" name="q45" value="1" id="q45"></td>
                     <td><input type="radio" name="q45" value="2" id="q45"></td>
                     <td><input type="radio" name="q45" value="3" id="q45"></td>
@@ -66,7 +66,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Gyakran szokott változni a kedvem
+                <td class="first-col">Könnyen változik a hangulatom
                     <td><input type="radio" name="q46" value="1" id="q46"></td>
                     <td><input type="radio" name="q46" value="2" id="q46"></td>
                     <td><input type="radio" name="q46" value="3" id="q46"></td>
@@ -93,7 +93,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Megvárom, hogy mások irányítsanak
+                <td class="first-col">Nem vagyok vezető típus
                     <td><input type="radio" name="q49" value="1" id="q49"></td>
                     <td><input type="radio" name="q49" value="2" id="q49"></td>
                     <td><input type="radio" name="q49" value="3" id="q49"></td>
@@ -102,7 +102,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nem különösen érdekel a szépirodalom
+                <td class="first-col">Nem érdekel a költészet
                     <td><input type="radio" name="q50" value="1" id="q50"></td>
                     <td><input type="radio" name="q50" value="2" id="q50"></td>
                     <td><input type="radio" name="q50" value="3" id="q50"></td>

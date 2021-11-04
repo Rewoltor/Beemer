@@ -66,7 +66,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Egy olyan ember vagyok akinek kedve gyorsan megy fel és le
+                <td class="first-col">Egy olyan ember vagyok, akinek kedve gyorsan megy fel és le
                     <td><input type="radio" name="q66" value="1" id="q66"></td>
                     <td><input type="radio" name="q66" value="2" id="q66"></td>
                     <td><input type="radio" name="q66" value="3" id="q66"></td>
@@ -75,7 +75,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Meg szoktam sérteni az embereket akaratlanul is
+                <td class="first-col">Megsértek embereket
                     <td><input type="radio" name="q67" value="1" id="q67"></td>
                     <td><input type="radio" name="q67" value="2" id="q67"></td>
                     <td><input type="radio" name="q67" value="3" id="q67"></td>
@@ -93,7 +93,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Könnyen rébeszéletk embereket dolgokra
+                <td class="first-col">Könnyen rábeszélek embereket dolgokra
                     <td><input type="radio" name="q69" value="1" id="q69"></td>
                     <td><input type="radio" name="q69" value="2" id="q69"></td>
                     <td><input type="radio" name="q69" value="3" id="q69"></td>
@@ -102,7 +102,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Szükségem van rá, hogy szabadon engedjem a kreatívitásomat
+                <td class="first-col">Szükségem van rá, hogy szabadon engedjem a kreativitásomat
                     <td><input type="radio" name="q70" value="1" id="q70"></td>
                     <td><input type="radio" name="q70" value="2" id="q70"></td>
                     <td><input type="radio" name="q70" value="3" id="q70"></td>

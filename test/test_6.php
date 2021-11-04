@@ -21,7 +21,7 @@
 
 
             <tr>
-                <td class="first-col">Gyakran izgulok
+                <td class="first-col">Izgulós vagyok
                     <td><input type="radio" name="q51" value="1" id="q51"></td>
                     <td><input type="radio" name="q51" value="2" id="q51"></td>
                     <td><input type="radio" name="q51" value="3" id="q51"></td>
@@ -39,7 +39,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nehezen koncentrálok a feladatra amit éppen végzek
+                <td class="first-col">Nehezen koncentrálok a feladatra, amit éppen végzek
                     <td><input type="radio" name="q53" value="1" id="q53"></td>
                     <td><input type="radio" name="q53" value="2" id="q53"></td>
                     <td><input type="radio" name="q53" value="3" id="q53"></td>
@@ -57,7 +57,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nem szeretek nehéz olvasmányokat olvasni
+                <td class="first-col">Nem szeretek a nehéz olvasmányokat
                     <td><input type="radio" name="q55" value="1" id="q55"></td>
                     <td><input type="radio" name="q55" value="2" id="q55"></td>
                     <td><input type="radio" name="q55" value="3" id="q55"></td>
@@ -75,7 +75,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Ritkán helyezek másokat nyomás alá
+                <td class="first-col">Nem helyezek másokat nyomás alá
                     <td><input type="radio" name="q57" value="1" id="q57"></td>
                     <td><input type="radio" name="q57" value="2" id="q57"></td>
                     <td><input type="radio" name="q57" value="3" id="q57"></td>
@@ -93,7 +93,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">A tökéletességre törekszem
+                <td class="first-col">Jó vezetőnek látom magamat
                     <td><input type="radio" name="q59" value="1" id="q59"></td>
                     <td><input type="radio" name="q59" value="2" id="q59"></td>
                     <td><input type="radio" name="q59" value="3" id="q59"></td>
@@ -102,7 +102,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nem szoktam látni az érzelmi hátterét egy festménynek
+                <td class="first-col">Nem látom az érzelmi hátterét egy festménynek
                     <td><input type="radio" name="q60" value="1" id="q60"></td>
                     <td><input type="radio" name="q60" value="2" id="q60"></td>
                     <td><input type="radio" name="q60" value="3" id="q60"></td>

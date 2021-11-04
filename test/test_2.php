@@ -48,7 +48,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nehezen lehet engem megismerni
+                <td class="first-col">Nehéz engem megismerni
                     <td><input type="radio" name="q14" value="1" id="q14"></td>
                     <td><input type="radio" name="q14" value="2" id="q14"></td>
                     <td><input type="radio" name="q14" value="3" id="q14"></td>
@@ -57,7 +57,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nehezen értek meg absztrakt koncepciókat
+                <td class="first-col">Nehezen értek meg absztrakt gondolatokat
                     <td><input type="radio" name="q15" value="1" id="q15"></td>
                     <td><input type="radio" name="q15" value="2" id="q15"></td>
                     <td><input type="radio" name="q15" value="3" id="q15"></td>

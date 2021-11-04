@@ -21,7 +21,7 @@
 
 
             <tr>
-                <td class="first-col">Nehéz zavarbahozni
+                <td class="first-col">Nehéz zavarba hozni
                     <td><input type="radio" name="q71" value="1" id="q71"></td>
                     <td><input type="radio" name="q71" value="2" id="q71"></td>
                     <td><input type="radio" name="q71" value="3" id="q71"></td>
@@ -39,7 +39,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Mindig tudom, hogy mit csinélok
+                <td class="first-col">Tudom, hogy mit csinálok
                     <td><input type="radio" name="q73" value="1" id="q73"></td>
                     <td><input type="radio" name="q73" value="2" id="q73"></td>
                     <td><input type="radio" name="q73" value="3" id="q73"></td>
@@ -57,7 +57,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Gyorsan goldolkodom
+                <td class="first-col">Gyorsan gondolkodom
                     <td><input type="radio" name="q75" value="1" id="q75"></td>
                     <td><input type="radio" name="q75" value="2" id="q75"></td>
                     <td><input type="radio" name="q75" value="3" id="q75"></td>
@@ -66,7 +66,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nehezem lehet lefidegesíteni
+                <td class="first-col">Nehezem lehet felidegesíteni
                     <td><input type="radio" name="q76" value="1" id="q76"></td>
                     <td><input type="radio" name="q76" value="2" id="q76"></td>
                     <td><input type="radio" name="q76" value="3" id="q76"></td>
@@ -93,7 +93,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nehezen modnom meg a véleményemet
+                <td class="first-col">Nehezen mondom el a véleményemet
                     <td><input type="radio" name="q79" value="1" id="q79"></td>
                     <td><input type="radio" name="q79" value="2" id="q79"></td>
                     <td><input type="radio" name="q79" value="3" id="q79"></td>
