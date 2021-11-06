@@ -1,24 +1,16 @@
 <?php
-session_start();
 
-if (isset($_SESSION['userId'])) {
-    echo "Cool";
-  } else {
-     echo "Not cool";
-  }
+session_start();
+$userId = $_SESSION['userId'];
 
 if (isset($_POST["submit"])) {
 
-    
-    
-    $userId = $_SESSION['userId'];
-
     require_once '../../dbh.inc.php';
-    require_once 'calc/a.calc.inc.php';
+    require_once 'calc/o.calc.inc.php';
     require_once 'calc/c.calc.inc.php';
     require_once 'calc/e.calc.inc.php';
+    require_once 'calc/a.calc.inc.php';
     require_once 'calc/n.calc.inc.php';
-    require_once 'calc/o.calc.inc.php';
     require_once 'calc/co.calc.inc.php';
     require_once 'functions.test.save.php';
 
@@ -28,5 +20,3 @@ if (isset($_POST["submit"])) {
     header("location: ../sikeres_test.php?wattafaka");
     exit();
 }
-
-
