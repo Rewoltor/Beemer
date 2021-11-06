@@ -1,5 +1,7 @@
 <?php
 
+require_once '../../../dbh.inc.php';
+
 $userId = $_SESSION['userId'];
 /*
 if (isset($_SESSION['userId'])) {

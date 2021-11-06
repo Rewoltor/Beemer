@@ -1,5 +1,7 @@
 <?php
 
+require_once '../../../dbh.inc.php';
+
 //this page calculates the score of the cognitive test
 
 $userId = $_SESSION['userId'];
