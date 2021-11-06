@@ -4,8 +4,8 @@
 
 
         if (isset($_SESSION['userId'])) {
-            echo    '<form action="includes/logout.inc.php" method="post">
-                        <button type="submit" name="logout-submit">Kijelentkezés</button>
+            echo    '<form action="../Regist/Includes/logout.inc.php" method="post">
+                        <button type="logout" name="logout-submit">Kijelentkezés</button>
                     </form>';
             echo    'Meg szeretné tekinteni az eredményt?
                     <form action="Includes/save_result.inc.php" method="post">
@@ -18,7 +18,4 @@
             echo    '<form action="../Regist/login.php" method="post">
                         <button type="submit" name="logout-submit">Bejelentkezés</button>
                     </form>';
-            echo    '<form action="includes/logout.inc.php" method="post">
-                        <button type="submit" name="logout-submit">Logout</button>
-                    </form>';
-        }
+                }
