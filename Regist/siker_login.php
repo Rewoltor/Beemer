@@ -5,7 +5,7 @@
 <main>
     <?php
         if (isset($_SESSION['usersEmail'])) {
-            echo    '<form action="../Regist/Includes/logout.inc.php" method="post">
+            echo    '<form action="Includes/logout.inc.php" method="post">
                         <button type="logout" name="logout-submit">Kijelentkezés</button>
                     </form>';
             echo    '<div class="register">
