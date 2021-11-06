@@ -5,8 +5,8 @@
 <main>
     <?php
         if (isset($_SESSION['usersEmail'])) {
-            echo    '<form action="includes/logout.inc.php" method="post">
-                    <button type="submit" name="logout-submit">Kijelentkezés</button>
+            echo    '<form action="../Regist/Includes/logout.inc.php" method="post">
+                        <button type="logout" name="logout-submit">Kijelentkezés</button>
                     </form>';
             echo    '<div class="register">
                     Ki szeretné tölteni a tesztet?
