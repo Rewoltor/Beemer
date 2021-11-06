@@ -15,7 +15,7 @@
                     </form>'; //path to first test file
         } else {
             echo    "Sajnos még nem jelentkezett be";
-            echo    '<form action="login.php" method="post">
+            echo    '<form action="../Regist/login.php" method="post">
                         <button type="submit" name="logout-submit">Bejelentkezés</button>
                     </form>';
             echo    '<form action="includes/logout.inc.php" method="post">
