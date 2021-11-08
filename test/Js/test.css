@@ -12,7 +12,8 @@ body, div, form, input, p {
 }
 form {
       width: 100%;
-      padding: 20px;
+      width: 100%;
+      /* padding: 20px; */
       background: #fff;
       box-shadow: 0 2px 5px #ccc; 
 }
@@ -28,7 +29,7 @@ th, td {
       padding: 3px;
 }
 .first-col {
-      width: 16%;
+      width: 14%;
       text-align: left;
       padding-top: 1%;
       padding-bottom: 1%;
@@ -38,7 +39,7 @@ th, td {
       margin-left: auto;
       margin-right: auto;
       width: 80%;
-      height: 80%;
+      height: 100%;
       border-radius: 0.35em;
       box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
       text-align: center;
@@ -46,7 +47,6 @@ th, td {
 .question{
       margin-bottom: 5%;
       margin-top: 3%;
-
 }
 input {
       border: 1px solid #0066cc;
@@ -81,10 +81,4 @@ input {
       visibility:visible;
 }
       
-
-
-
-
-
-
 
