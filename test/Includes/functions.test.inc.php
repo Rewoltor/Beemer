@@ -189,7 +189,7 @@ function createTest11($conn, $userId, $co1, $co2, $co3, $co4, $co5, $co6, $co7, 
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
     session_start();
-    header("location: ../sikeres_test.php?success=yeeymami"); //link to the next page of tests   I need to set path to the final page or whatever I want to send them to
+    header("location: ../test_final.php?success=yeeymami"); //link to the next page of tests   I need to set path to the final page or whatever I want to send them to
     exit();
 }
 /*

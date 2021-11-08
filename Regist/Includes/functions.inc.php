@@ -142,7 +142,7 @@ function loginUser($conn, $email, $pwd) {
         session_start();
         $_SESSION['userId'] = $emailexists['userId'];
         $_SESSION['usersEmail'] = $emailexists['usersEmail'];
-        header ("location: ../siker_login.php"); //after login path
+        header ("location: ../start_test.php"); //after login path
         exit();
     }
 }
