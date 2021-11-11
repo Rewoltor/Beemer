@@ -46,11 +46,11 @@
                     </li>
                 </ul>
                 <div class="text-right">
-                    <a href="https://steemit.com/pick_account" class="btn btn-primary mr-3 font-weight-bold">
-                        Sign Up
+                    <a href="Regist/register.php" class="btn btn-primary mr-3 font-weight-bold">
+                        Regisztráció
                     </a>
-                    <a href="https://v2.steemconnect.com/oauth2/authorize?client_id=utopian.app&redirect_uri=https%3A%2F%2Futopian.io%2Fcallback&scope=" class="btn btn-primary font-weight-bold">
-                        Log In
+                    <a href="Regist/login.php">
+                        Bejelentkezés
                     </a>
                 </div>
             </div>
@@ -77,12 +77,10 @@
         </div>
 
         <div class="container lead" id="intro">
-            Quisquam omnis enim ipsum eius consequuntur velit. Omnis ipsum dolores in eveniet laudantium nihil. Excepturi quisquam dolore veniam. Error esse cumque ut. Deserunt nostrum ipsa autem. Ut error officia placeat.
-
-            Consequuntur dolorum animi praesentium voluptates qui. Quis dolorem in a voluptatum. Et ut quia sunt et quia ullam et beatae.
-            Quisquam omnis enim ipsum eius consequuntur velit. Omnis ipsum dolores in eveniet laudantium nihil. Excepturi quisquam dolore veniam. Error esse cumque ut. Deserunt nostrum ipsa autem. Ut error officia placeat.
-
-            Consequuntur dolorum animi praesentium voluptates qui. Quis dolorem in a voluptatum. Et ut quia sunt et quia ullam et beatae.
+        Nagyon sokan nem ismerik magukat így nem is tudják erősségeiket kihasználni és gyengeségeiket fejleszteni. 
+        Ha nem tudod hol vagy a térlépen és nem tudod, hogy hová tartasz akkor nem fogsz célba sem érni. 
+        Természetesen ez egy nagyon nehéz feladata mivel mi emberek vagyunk a legbonyolultabb dolgok az ismert univerzumban. 
+        Egy kis segítséget mindenki el tud fogadni. Mi szívesen segítünk mindenkinek abba, hogy fejlessze magát.
         </div>
 
         <div id="github-trigger"></div>
