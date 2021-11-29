@@ -24,6 +24,9 @@
         else if ($_GET["error"] == "invalidphone") { 
             echo "<p>Telefonszám formátuma helytelen</p>";
         }
+        else if ($_GET["error"] == "emaildontexist") { 
+            echo "<p>A megadott email még nem lett regisztrálva</p>";
+        }
         else if ($_GET["error"] == "stmt") { 
             echo "<p>Szerver hiba</p>";
             echo "<p>Kérem próbálja meg újra</p>";

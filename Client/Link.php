@@ -1,7 +1,5 @@
 <?php
 
-
-
 //Get information from email
 $email = htmlspecialchars($_GET["name"]);
 //http://example.com/?name=Hannes  this is the amail
