@@ -7,15 +7,14 @@
 
     <form action="Includes/test.inc.php" method="post">
 
-        <p class="question">Kérem válaszoljon a kérdésekre legobb tudása szerint. Nincsenek jó vagy rossz válaszok.</p>
         <table>
           <tr>
             <th class="first-col"></th>
-            <th>Egyáltalán nem</th>
-            <th>Nem nagyon</th>
+            <th>Nem</th>
+            <th>Inkább nem</th>
             <th>Közönbös</th>
-            <th>Kicsit</th>
-            <th>Nagyon</th>
+            <th>Inkább igen</th>
+            <th>Igen</th>
           </tr>
 
 
