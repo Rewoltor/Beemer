@@ -13,12 +13,19 @@
   </head>
 
 <main>
+
+
   <?php
+  /*
       if (isset($_SESSION['userId'])) {
           echo "Cool";
           echo $_SESSION['userId'];
       } else {
            echo "Not cool";
       }
+      */
     ?>
+
+
+    <p>5-ős skálán tud válaszolni majd a kérdésekre, hogy mennyire igazak önre</p>
 </main>

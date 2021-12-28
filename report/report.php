@@ -1,15 +1,24 @@
 <?php
+
 require_once '../dbh.inc.php';
 require_once 'report.inc.php';
 $userId = $_SESSION['userId'];
 ?>
+
+
   <?php
+
+/*
+
       if (isset($_SESSION['userId'])) {
           echo "Cool";
           echo $_SESSION['userId'];
       } else {
            echo "Not cool";
       }
+
+*/
+
     ?>
 
 <!DOCTYPE html>

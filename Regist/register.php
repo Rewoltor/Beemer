@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Regisztráció</title>
+    <title>Első lépés</title>
     <meta name="description" content="Login - Register Template">
     <meta name="author" content="Lorenzo Angelino aka MrLolok">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,7 @@
 <body>
     <div id="container-register">
         <div id="title">
-            <i class="material-icons lock">lock</i> Regisztráció
+            <i class="material-icons lock">lock</i> Első lépés
         </div>
 
 
@@ -33,12 +33,6 @@
         <?php include 'includes/error.php';?>
 
         <form action="Includes/signup.inc.php" method="post">
-            <div class="input">
-                <div class="input-addon">
-                    <i class="material-icons">email</i>
-                </div>
-                <input id="email" placeholder="Email" type="email" name="email" data-validation="email" data-validation-error-msg-container="#ErrorEmail" required class="validate">
-            </div>
 
             <div class="clearfix"></div>
 
@@ -63,29 +57,38 @@
             <div class="row">
                 <form class="register">
                     <div class="register-switch">
-                        <input type="radio" name="sex" value="Ferfi" id="Ferfi" class="register-switch-input" checked>
+                        <input type="radio" name="sex" value="Ferfi" id="Ferfi" class="register-switch-input" >
                         <label for="Ferfi" class="register-switch-label">Férfi</label>
                         <input type="radio" name="sex" value="No" id="No" class="register-switch-input">
                         <label for="No" class="register-switch-label">Nő</label>
+                        <input type="radio" name="sex" value="None1" id="None1" class="register-switch-input" checked="checked" style="opacity: 0;">
                     </div>
             </div>
 
+
+            
+
+            <div class="input" style="height:28px">
+                <div class="input-field"><div class="input-addon">
+                    <i class="material-icons">school</i>
+                </div>
+                    <select name="school">
+                        <option name="school" value="0">Iskolai végzettség</option>
+                        <option name="school" value="8">8 Általános</option>
+                        <option name="school" value="Szak">Szakközép</option>
+                        <option name="school" value="Gimn">Gimnázium</option>
+                        <option name="school" value="Főisk">Főiskola</option>
+                        <option name="school" value="Egyetem">Egyetem</option>
+                    </select>
+                </div>
+            </div>    
+
+
+
+
+
             <!-- don't know what da fukk is this -->
             <div class="clearfix"></div>
-
-            <div class="input">
-                <div class="input-addon">
-                    <i class="material-icons">vpn_key</i>
-                </div>
-                <input id="password" placeholder="Jelszó" name="pwd" type="password" required class="validate" autocomplete="off" onkeyup='check();'>
-            </div>
-
-            <div class="input">
-                <div class="input-addon">
-                    <i class="material-icons">vpn_key</i>
-                </div>
-                <input id="confirm_password" placeholder="Jelszó megerősítés" name="pwdrepeat" type="password" required class="validate" autocomplete="off" onkeyup='check();'>
-            </div>
 
             <span id='message' class= "message"></span>
 
@@ -102,22 +105,34 @@
             <script LANGUAGE="JavaScript" src="dist/box.js"></script>  
             </div>
 
+    
+
+
+
 
             <div class="register-button">
-                <input type="submit" name="submit" class="inputButton"  id="submit" value="Regisztráció" disabled="disabled"  /> <!-- a "name" számít a .php-nál   -->
-            <script LANGUAGE="JavaScript" src="dist/box.js"></script> <!-- .js for, if box is not checked not clickable -->
+                <input type="submit" name="submit" class="inputButton"  id="submit" value="Indítás" disabled="disabled"  /> <!-- a "name" számít a .php-nál   -->
+                <script LANGUAGE="JavaScript" src="dist/box.js"></script> <!-- .js for, if box is not checked not clickable -->
             </div>
+
 
 
 
         </form>
 
+    <!--
+
         <div class="register">
             <p>Már van fiókja?</p>
             <a href="login.php"><button id="register-link">Jelentkezzen be</button></a>
         </div>
+
+    -->
+
     </div>
 </body>
+
+
 
 
 </html>

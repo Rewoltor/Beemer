@@ -1,7 +1,7 @@
 <?php
 session_start();
     
-if (isset($_SESSION['usersEmail'])) {
+if (isset($_SESSION['registerId'])) {
 echo   '<html>
             <head>
                 <meta charset="UTF-8">

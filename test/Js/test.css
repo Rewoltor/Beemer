@@ -37,10 +37,20 @@ th, td {
       padding: 3px;
 }
 .first-col {
-      width: 16%;
+      width: 66%;
       text-align: left;
+      font-size: 150%;
       padding-top: 1%;
       padding-bottom: 1%;
+}
+.right-col{
+      width: 5%;
+      text-align: right;
+      padding-top: 1%;
+      padding-bottom: 1%;
+}
+th{
+      padding: 5px;
 }
 .question{
       margin-bottom: 5%;
@@ -74,8 +84,6 @@ input {
       left:0px;
       visibility:hidden;
 }
-
-#button:hover .text {
-      visibility:visible;
-}
-      
+input[type='radio'] { 
+      transform: scale(2); 
+  }

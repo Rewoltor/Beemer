@@ -140,10 +140,11 @@
                 <script LANGUAGE="JavaScript" src="Js/boxes.js"></script>  
             </table>
 
+            
+
             <div class="button">
-                <span  onclick="alert('This input is disabled')">
-                    <input type="submit" name="submit9" class="button" disabled id="enable-on-two" value="Következő"/>
-                </span>
+                <p desabled id="disableOn10"> Válaszoljon az összes kérdésre</p>
+                <input type="submit" name="submit9" class="button" id="enable-on-two" value="Következő" disabled/></input>
             </div>
 
 

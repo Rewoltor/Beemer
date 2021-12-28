@@ -192,19 +192,18 @@ function createTest11($conn, $userId, $co1, $co2, $co3, $co4, $co5, $co6, $co7, 
     header("location: ../test_final.php?success=yeeymami"); //link to the next page of tests   I need to set path to the final page or whatever I want to send them to
     exit();
 }
-/*
-function createTest11($conn, $userId, $q101, $q102, $q103, $q104, $q105, $q106, $q107, $q108, $q109, $q110) {
-    $sql = "INSERT INTO test11 (userId, test1q101, test1q102, test1q103, test1q104, test1q105, test1q106, test1q107, test1q108, test1q109, test1q110) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
-    $stmt = mysqli_stmt_init($conn);
-    if (!mysqli_stmt_prepare($stmt, $sql)) {
-        header("location: ../test_11.php?error=stmtfailed1"); //error massage of connection error, varivable or format inorrect
-        exit();
+
+
+
+
+//empty inputs kezelő
+function emptyInputSignup($vez_nev, $sex, $birthday, $registerId, $registerTime) {
+    $result;
+    if (empty($vez_nev) || empty($sex) || empty($birthday) || empty($registerId) || empty($registerTime)) {
+        $result = true;  #this should be true but just for this to work and for thes
     }
-
-$co1, $co2, $co3, $co4, $co5, $co6, $co7, $co8, $co9, $co10
-co1, co2, co3, co4, co5, co6, co7, co8, co9, co10
-
-co1, co2, co3, co4, co5, co6, co7, co8, co9, co10
-$co1, $co2, $co3, $co4, $co5, $co6, $co7, $co8, $co9, $co10
-
-*/
+    else {
+        $result = false;
+    }
+    return $result;
+}

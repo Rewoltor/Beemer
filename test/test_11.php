@@ -28,12 +28,12 @@
     <main>
 
         <div id="introduction">
-            <h3 style="text-align: center;">Szuper teljesítmény, már csak 10 kérdés van hátra</h3>
+            <h3 style="text-align: center;">Szuper, Már csak 10 kérdés</h3>
             <p style="text-align: center;">----------</p>
             <p style="text-align: center;">Erre a részre kérdésenként 1 perce van. Összesen 600 másodperc</p>
             <p style="text-align: center;">A hátralévő idejét a jobb felső sarokban tekintheti meg</p>
-            <p style="text-align: center;">A test kezdéséhez kattinstron a "Start" gombra</p>
-            <a href="#" id="startClock">Start</a>
+            <!--<p style="text-align: center;">A test kezdéséhez kattinstron a "Start" gombra</p>-->
+            <a href="#" class="start-button" id="startClock">Start</a>
         </div>
         <div id="quiz">
 

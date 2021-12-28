@@ -1,5 +1,7 @@
 <?php
 session_start();
+
+
 require_once '../dbh.inc.php';
 $userId = $_SESSION['userId'];
 
@@ -30,6 +32,7 @@ $userId = $_SESSION['userId'];
       while ($row1 = mysqli_fetch_assoc($result1))
       {
         $o_rest = $row1['t_openness'];
+        
       }
       while ($row2 = mysqli_fetch_assoc($result2))
       {
@@ -66,7 +69,6 @@ $userId = $_SESSION['userId'];
 
       $times = 1.25;
       $neuroticism = round($n_rest * $times, 0);
-
 
 
       /*

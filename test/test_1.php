@@ -9,14 +9,14 @@
     <form action="Includes/test.inc.php" method="post">
 
         <table>
-          <tr>
-            <th class="first-col"></th>
-            <th>Nem</th>
-            <th>Inkább nem</th>
-            <th>Közönbös</th>
-            <th>Inkább igen</th>
-            <th>Igen</th>
-          </tr>
+            <tr>
+                <th class="right-col"></th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            </tr>
 
 
             <tr>
@@ -114,8 +114,10 @@
 
 
         <div class="register-button">
+            <p desabled id="disableOn10"> Válaszoljon az összes kérdésre</p>
             <input type="submit" name="submit1" class="inputButton" value="Következő" disabled id="enable-on-two"/>
         </div>
+
 
     </form>
 

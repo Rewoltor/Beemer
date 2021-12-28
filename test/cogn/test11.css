@@ -114,4 +114,11 @@ footer{
     display: inline-block;
     margin: 10px;
 }
+.start-button{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: 0 auto; 
+    display:block; 
+    text-align: center;
+}
 

@@ -242,25 +242,3 @@ if (isset($_POST["submit1"])) {
     header("location: ../test_10.php?malinputman");
     exit();
 }
-
-
-/*
-} else if (isset($_POST["submit11"])) {
-
-    $userId = $_SESSION['userId'];
-    $q101 = $_POST["co1"];
-    $q102 = $_POST["co2"];
-    $q103 = $_POST["co3"];
-    $q104 = $_POST["co4"];
-    $q105 = $_POST["co5"];
-    $q106 = $_POST["co6"];
-    $q107 = $_POST["co7"];
-    $q108 = $_POST["co8"];
-    $q109 = $_POST["co9"];
-    $q110 = $_POST["co10"];
-
-    require_once 'dbh.inc.php';
-    require_once 'functions.test.inc.php';
-
-    createTest11($conn, $userId, $q101, $q102, $q103, $q104, $q105, $q106, $q107, $q108, $q109, $q110);
-    */

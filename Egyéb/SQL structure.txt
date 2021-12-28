@@ -8,6 +8,17 @@ CREATE TABLE users (
 
 
 
+CREATE TABLE users (
+	userId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    usersVez_nev varchar(128) NOT NULL,
+    userssex varchar(128) NOT NULL,
+    usersbirthday varchar(128) NOT NULL,
+    registerId varchar(128) NOT NULL,
+    registerTime varchar(128) NOT NULL
+);
+
+
+
 
 
 CREATE TABLE users (
@@ -60,7 +71,7 @@ CREATE TABLE users (
 
 
 CREATE TABLE test1 (
-    userId varchar(128) NOT NULL,
+    registerId varchar(128) NOT NULL,
     test1q1 varchar(128) NOT NULL,
     test1q2 varchar(128) NOT NULL,
     test1q3 varchar(128) NOT NULL,
