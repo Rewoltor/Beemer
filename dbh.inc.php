@@ -1,7 +1,7 @@
 <?php
 
-/*
 
+/*
 $serverName = "localhost:3307";
 $dBUsername = "root";
 $dBPassword = "";
