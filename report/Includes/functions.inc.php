@@ -1,10 +1,9 @@
 <?php
 session_start();
 require_once '../../dbh.inc.php';
-$userId = $_SESSION['userId'];
 
 //signupp user to the website
-function createUser($conn, $feedback, $email) {
+function createUser($conn, $userId, $feedback, $email) {
 
      $sql = "INSERT INTO feedback (userId, feedback, email) VALUES ( ?, ?, ?);";
      $stmt = mysqli_stmt_init($conn);

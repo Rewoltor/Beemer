@@ -1,5 +1,6 @@
 <?php
 session_start();
+$userId = $_SESSION['userId'];
 
 if (isset($_POST["submit"])) {
 
@@ -15,7 +16,7 @@ if (isset($_POST["submit"])) {
         exit();
     }
 
-    createUser($conn, $email, $feedback);
+    createUser($conn, $userId, $email, $feedback);
 
 }
 else {
