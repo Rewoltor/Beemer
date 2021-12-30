@@ -1,10 +1,10 @@
 <?php
-
 /*
 $serverName = "localhost:3307";
 $dBUsername = "root";
 $dBPassword = "";
 $dBName = "beemer1"; //name of mysql database xampp
+
 
 
 

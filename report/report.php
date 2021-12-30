@@ -27,7 +27,7 @@ $userId = $_SESSION['userId'];
 <head>
   <meta charset="UTF-8">
   <title>BMR - Személyiség report</title>
-  <link rel="stylesheet" href="./report.css">
+  <link rel="stylesheet" href="css/report.css">
 
 </head>
 <body>
@@ -46,7 +46,11 @@ $userId = $_SESSION['userId'];
 <div class="container">
 
   <p class="title">Személyiség</p>
-  
+
+  <div style='color: green; text-align: center;'>
+    <?php include 'Includes/error.php';?>
+  </div>
+
   <label class="felirat">Tapasztalatra való nyitottság <?php echo $openness ?></label>
   <div class="rating-bar">
     <div class="scale-rating" data-rating="<?php echo htmlspecialchars($openness); ?>"></div>
@@ -82,7 +86,7 @@ $userId = $_SESSION['userId'];
 
 
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./report.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="css/report.js"></script>
 
 </body>
 </html>
