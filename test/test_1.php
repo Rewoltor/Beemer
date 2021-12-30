@@ -65,7 +65,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Könnyen kapok haragra
+                <td class="first-col">Könnyen haragra lobbanok
                     <td><input type="radio" name="q6" value="1" id="q6"></td>
                     <td><input type="radio" name="q6" value="2" id="q6"></td>
                     <td><input type="radio" name="q6" value="3" id="q6"></td>
@@ -74,7 +74,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Tisztelem a hatalommal hatalmat
+                <td class="first-col">Tekintélytisztelő vagyok
                     <td><input type="radio" name="q7" value="1" id="q7"></td>
                     <td><input type="radio" name="q7" value="2" id="q7"></td>
                     <td><input type="radio" name="q7" value="3" id="q7"></td>

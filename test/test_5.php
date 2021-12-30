@@ -56,7 +56,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Kerülöm a filozofikus kérdéseket és inkább csevegek
+                <td class="first-col">Kerülöm a filozofikus kérdéseket
                     <td><input type="radio" name="q45" value="1" id="q45"></td>
                     <td><input type="radio" name="q45" value="2" id="q45"></td>
                     <td><input type="radio" name="q45" value="3" id="q45"></td>
@@ -65,7 +65,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Könnyen változik a hangulatom
+                <td class="first-col">Gyakran változik a hangulatom
                     <td><input type="radio" name="q46" value="1" id="q46"></td>
                     <td><input type="radio" name="q46" value="2" id="q46"></td>
                     <td><input type="radio" name="q46" value="3" id="q46"></td>

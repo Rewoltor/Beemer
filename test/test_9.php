@@ -20,7 +20,7 @@
 
 
             <tr>
-                <td class="first-col">Könnyen kiborulok eseményektől
+                <td class="first-col">Könnyen kizökkentenek a váratlan események
                     <td><input type="radio" name="q81" value="1" id="q81"></td>
                     <td><input type="radio" name="q81" value="2" id="q81"></td>
                     <td><input type="radio" name="q81" value="3" id="q81"></td>
@@ -29,7 +29,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nincsen puha oldalam
+                <td class="first-col">Nincs gyengéd oldalam
                     <td><input type="radio" name="q82" value="1" id="q82"></td>
                     <td><input type="radio" name="q82" value="2" id="q82"></td>
                     <td><input type="radio" name="q82" value="3" id="q82"></td>
@@ -74,7 +74,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Szeretek egy jó vitát
+                <td class="first-col">Szeretem a jóféle vitákat
                     <td><input type="radio" name="q87" value="1" id="q87"></td>
                     <td><input type="radio" name="q87" value="2" id="q87"></td>
                     <td><input type="radio" name="q87" value="3" id="q87"></td>

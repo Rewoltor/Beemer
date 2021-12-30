@@ -20,7 +20,7 @@
 
 
             <tr>
-                <td class="first-col">Könnyel le lehet engem törni
+                <td class="first-col">Könnyen elcsüggedek
                     <td><input type="radio" name="q61" value="1" id="q61"></td>
                     <td><input type="radio" name="q61" value="2" id="q61"></td>
                     <td><input type="radio" name="q61" value="3" id="q61"></td>
@@ -29,7 +29,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Keveset foglalkozom másokkal
+                <td class="first-col">Kevés időt szánok másokra
                     <td><input type="radio" name="q62" value="1" id="q62"></td>
                     <td><input type="radio" name="q62" value="2" id="q62"></td>
                     <td><input type="radio" name="q62" value="3" id="q62"></td>
@@ -65,7 +65,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Egy olyan ember vagyok, akinek kedve gyorsan megy fel és le
+                <td class="first-col">Olyan ember vagyok, akinek a hangulata könnyen ingadozik
                     <td><input type="radio" name="q66" value="1" id="q66"></td>
                     <td><input type="radio" name="q66" value="2" id="q66"></td>
                     <td><input type="radio" name="q66" value="3" id="q66"></td>
@@ -74,7 +74,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Megsértek embereket
+                <td class="first-col">Könnyen megsértek embereket
                     <td><input type="radio" name="q67" value="1" id="q67"></td>
                     <td><input type="radio" name="q67" value="2" id="q67"></td>
                     <td><input type="radio" name="q67" value="3" id="q67"></td>

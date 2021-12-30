@@ -38,7 +38,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Gyakran pazarlom az időmet
+                <td class="first-col">Kifolyik az idő a kezem közül
                     <td><input type="radio" name="q13" value="1" id="q13"></td>
                     <td><input type="radio" name="q13" value="2" id="q13"></td>
                     <td><input type="radio" name="q13" value="3" id="q13"></td>

@@ -18,6 +18,17 @@ CREATE TABLE users (
 );
 
 
+CREATE TABLE users (
+	userId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    usersVez_nev varchar(128) NOT NULL,
+    userssex varchar(128) NOT NULL,
+    usersbirthday varchar(128) NOT NULL,
+    registerId varchar(128) NOT NULL,
+    registerTime varchar(128) NOT NULL,
+    school varchar(128) NOT NULL
+);
+
+school
 
 
 

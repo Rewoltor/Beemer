@@ -47,7 +47,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nagyon sokat nevetek
+                <td class="first-col">Sokat nevetek
                     <td><input type="radio" name="q94" value="1" id="q94"></td>
                     <td><input type="radio" name="q94" value="2" id="q94"></td>
                     <td><input type="radio" name="q94" value="3" id="q94"></td>
@@ -65,7 +65,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Könnyű összezavarni engem
+                <td class="first-col">Könnyen felkavarnak a dolgok
                     <td><input type="radio" name="q96" value="1" id="q96"></td>
                     <td><input type="radio" name="q96" value="2" id="q96"></td>
                     <td><input type="radio" name="q96" value="3" id="q96"></td>
@@ -83,7 +83,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Minden egyes részletre odafigyelek
+                <td class="first-col">Minden részletre odafigyelek
                     <td><input type="radio" name="q98" value="1" id="q98"></td>
                     <td><input type="radio" name="q98" value="2" id="q98"></td>
                     <td><input type="radio" name="q98" value="3" id="q98"></td>
@@ -92,7 +92,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nem vagyok egy határozott személy
+                <td class="first-col">Nem vagyok magabiztos személyiség
                     <td><input type="radio" name="q99" value="1" id="q99"></td>
                     <td><input type="radio" name="q99" value="2" id="q99"></td>
                     <td><input type="radio" name="q99" value="3" id="q99"></td>
@@ -101,7 +101,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Olyan dolgokat látok szépnek, amiket mások nem vesznek észre
+                <td class="first-col">Megtalálom a szépséget azokban a dolgokban, amiket  ások észre sem vesznek
                     <td><input type="radio" name="q100" value="1" id="q100"></td>
                     <td><input type="radio" name="q100" value="2" id="q100"></td>
                     <td><input type="radio" name="q100" value="3" id="q100"></td>

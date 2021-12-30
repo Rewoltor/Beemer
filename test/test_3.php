@@ -1,6 +1,7 @@
 <?php
     include_once 'header.php';
 ?>
+
   <body>
 
 
@@ -28,7 +29,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Érdeklődöm más emberek jólétéről
+                <td class="first-col">Érdekelődöm más emberek jóléte iránt
                     <td><input type="radio" name="q22" value="1" id="q22"></td>
                     <td><input type="radio" name="q22" value="2" id="q22"></td>
                     <td><input type="radio" name="q22" value="3" id="q22"></td>
@@ -37,7 +38,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nehezem veszem rá magamat, hogy nekiálljak a dolgomnak
+                <td class="first-col">Nehezem veszem rá magamat, hogy nekiálljak a feladataimnak
                     <td><input type="radio" name="q23" value="1" id="q23"></td>
                     <td><input type="radio" name="q23" value="2" id="q23"></td>
                     <td><input type="radio" name="q23" value="3" id="q23"></td>
@@ -46,7 +47,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Távolságot tartok az másoktól
+                <td class="first-col">Távolságtartó vagyok másokkal
                     <td><input type="radio" name="q24" value="1" id="q24"></td>
                     <td><input type="radio" name="q24" value="2" id="q24"></td>
                     <td><input type="radio" name="q24" value="3" id="q24"></td>
@@ -91,7 +92,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nem vagyok meggyőző
+                <td class="first-col">Hiányzik belőlem a képesség az emberek befolyásolására
                     <td><input type="radio" name="q29" value="1" id="q29"></td>
                     <td><input type="radio" name="q29" value="2" id="q29"></td>
                     <td><input type="radio" name="q29" value="3" id="q29"></td>
@@ -100,7 +101,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Szeretsz gondolkodni a dolgokon
+                <td class="first-col">Szeretek gondolkodni a dolgokon
                     <td><input type="radio" name="q30" value="1" id="q30"></td>
                     <td><input type="radio" name="q30" value="2" id="q30"></td>
                     <td><input type="radio" name="q30" value="3" id="q30"></td>

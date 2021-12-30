@@ -38,7 +38,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Tudom, hogy mit csinálok
+                <td class="first-col">Mindig tudom, hogy mit csinálok
                     <td><input type="radio" name="q73" value="1" id="q73"></td>
                     <td><input type="radio" name="q73" value="2" id="q73"></td>
                     <td><input type="radio" name="q73" value="3" id="q73"></td>
@@ -56,7 +56,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Gyorsan gondolkodom
+                <td class="first-col">Gyors a gondolkodásom
                     <td><input type="radio" name="q75" value="1" id="q75"></td>
                     <td><input type="radio" name="q75" value="2" id="q75"></td>
                     <td><input type="radio" name="q75" value="3" id="q75"></td>
@@ -83,7 +83,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nem szeretem a rutint
+                <td class="first-col">Nem szeretem a rutinszerű dolgokat
                     <td><input type="radio" name="q78" value="1" id="q78"></td>
                     <td><input type="radio" name="q78" value="2" id="q78"></td>
                     <td><input type="radio" name="q78" value="3" id="q78"></td>
@@ -92,7 +92,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nehezen mondom el a véleményemet
+                <td class="first-col">A véleményemet megtartom magamnak
                     <td><input type="radio" name="q79" value="1" id="q79"></td>
                     <td><input type="radio" name="q79" value="2" id="q79"></td>
                     <td><input type="radio" name="q79" value="3" id="q79"></td>

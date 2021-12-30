@@ -1,8 +1,9 @@
 <?php
 
 require_once '../dbh.inc.php';
-require_once 'report.inc.php';
+require_once 'Includes/report.inc.php';
 $userId = $_SESSION['userId'];
+
 ?>
 
 
@@ -73,7 +74,7 @@ $userId = $_SESSION['userId'];
 
 
   <div class="button">
-    <a href="C:\Users\balta\Documents\Program\Html\Test\Regist\Register.html"><button id="button-link">Register here</button></a>
+    <a href="email_regist.php"><button id="button-link">Részletes elemzés</button></a>
   </div>
 
 </div>
