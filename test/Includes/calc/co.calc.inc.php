@@ -79,14 +79,14 @@ echo "Not cool";
       }
       //9
       $co_9 = $row['co9'];
-      if($co_9 == "c"){
+      if($co_9 == "e"){
           $co_a_9 = "1";
       }else{
           $co_a_9 = "0";
       }
       //10
       $co_10 = $row['co10'];
-      if($co_10 == "e"){
+      if($co_10 == "c"){
           $co_a_10 = "1";
       }else{
           $co_a_10 = "0";
