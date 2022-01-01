@@ -56,7 +56,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Könnyen barátkozom
+                <td class="first-col">Gyorsan megértem a dolgokat
                     <td><input type="radio" name="q5" value="1" id="q5"></td>
                     <td><input type="radio" name="q5" value="2" id="q5"></td>
                     <td><input type="radio" name="q5" value="3" id="q5"></td>
