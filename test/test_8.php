@@ -65,7 +65,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nehezem lehet felidegesíteni
+                <td class="first-col">Nehezen lehet felidegesíteni
                     <td><input type="radio" name="q76" value="1" id="q76"></td>
                     <td><input type="radio" name="q76" value="2" id="q76"></td>
                     <td><input type="radio" name="q76" value="3" id="q76"></td>

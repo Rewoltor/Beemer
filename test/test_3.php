@@ -38,7 +38,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="first-col">Nehezem veszem rá magamat, hogy nekiálljak a feladataimnak
+                <td class="first-col">Nehezen veszem rá magamat, hogy nekiálljak a feladataimnak
                     <td><input type="radio" name="q23" value="1" id="q23"></td>
                     <td><input type="radio" name="q23" value="2" id="q23"></td>
                     <td><input type="radio" name="q23" value="3" id="q23"></td>
