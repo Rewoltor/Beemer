@@ -1,5 +1,4 @@
 <?php
-
 /*
 
 if (isset($_POST["submit"])) {
@@ -25,7 +24,6 @@ else {
     header("location: ../register.php?wattafaka");
     exit();
 }
-
 */
 
 ?>
