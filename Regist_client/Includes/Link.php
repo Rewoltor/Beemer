@@ -14,7 +14,7 @@ echo $email;
 //check if email exists in database
 //this checks if the client has entered the registration email of the testtaker
 $mysqli = new mysqli(SERVER, DBUSER, DBPASS, DATABASE);
-$result = $mysqli->query("SELECT * WHERE clients WHERE clientsEmail = '$email'");
+$result = $mysqli->query("SELECT * WHERE users WHERE usersEmail = '$email'");
 if($result->num_rows == 0) {
      // row not found, do stuff...
 } else {

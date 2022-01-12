@@ -21,7 +21,7 @@
 <div class="container">
     <header>
 
-      <div class="pull-left">Bal</div>
+      <div class="pull-left"></div>
       <div class="pull-right">Hátralévő idő: <span id="count">600</span> ms</div>
 
     </header>
@@ -33,7 +33,7 @@
             <p style="text-align: center;">Erre a részre kérdésenként 1 perce van. Összesen 600 másodperc</p>
             <p style="text-align: center;">A hátralévő idejét a jobb felső sarokban tekintheti meg</p>
             <!--<p style="text-align: center;">A test kezdéséhez kattinstron a "Start" gombra</p>-->
-            <a href="#" class="start-button" id="startClock">Start</a>
+            <a href="#" class="-btn -bg -txt" id="startClock">Start</a>
         </div>
         <div id="quiz">
 
