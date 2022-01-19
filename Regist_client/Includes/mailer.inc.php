@@ -7,7 +7,7 @@ $clientsId = $_SESSION["clientsId"];
 $email = $_POST["email"];
 $html2='gyerre velem te gyerek';
 $sub = 'sdfl';
-$html = "https://beemer2.herokuapp.com/Regist_client/register.php?email=$email&clientsId=$clientsId";
+$html = "https://beemer2.herokuapp.com/Regist/register.php?email=$email&clientsId=$clientsId";
 
 echo smtp_mailer($email,$sub,$html);
 function smtp_mailer($to,$subject, $msg){
