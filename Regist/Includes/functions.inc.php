@@ -3,8 +3,8 @@
 require_once '../../dbh.inc.php';
 
 //signupp user to the website
-function createUser($conn, $vez_nev, $sex, $birthday, $registerId, $registerTime, $school) {
-    $sql = "INSERT INTO users (usersVez_nev, userssex, usersbirthday, registerId, registerTime, school) VALUES ( ?, ?, ?, ?, ?, ?);";
+function createUser($conn, $Vez_nev, $registerTime, $usersEmail,  $registerId, $clientsId) {
+    $sql = "INSERT INTO users (usersVez_nev, registerTime, usersEmail, registerId, clientsId) VALUES ( ?, ?, ?, ?, ?);";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../register.php?error=stmtfailed1");
@@ -14,7 +14,8 @@ function createUser($conn, $vez_nev, $sex, $birthday, $registerId, $registerTime
         //here is the loagoupt to the server
         session_start();
         $_SESSION['registerId'] = $registerId;
-        mysqli_stmt_bind_param($stmt, "ssssss", $vez_nev, $sex, $birthday, $registerId, $registerTime, $school);
+        $_SESSION['clientsId'] = $clientsId;
+        mysqli_stmt_bind_param($stmt, "sssss", $Vez_nev, $registerTime, $usersEmail,  $registerId, $clientsId);
         mysqli_stmt_execute($stmt);
         mysqli_stmt_close($stmt);
         header("location: ../start_test.php"); //post register path
@@ -71,9 +72,9 @@ function loginUser($conn, $email, $pwd) {
 }
 
 //empty inputs kezelő
-function emptyInputSignup($vez_nev, $sex, $birthday, $registerId, $registerTime) {
+function emptyInputSignup($vez_nev) {
     $result;
-    if (empty($vez_nev) || empty($sex) || empty($birthday) || empty($registerId) || empty($registerTime)) {
+    if (empty($vez_nev)) {
         $result = true;  #this should be true but just for this to work and for thes
     }
     else {

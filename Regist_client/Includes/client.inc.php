@@ -33,7 +33,7 @@ else {
 <?php
 $to = $_POST['email'];
 $subject = "Email Subject";
-$emaillink = "http://http://192.168.1.12/:8887/regist/register.php?name" . $to ;
+$emaillink = "http://http://192.168.1.12/:8887/regist/register.php?name=" . $to ;
 
 $message .= "Töltse ki kérem a tesztet amit ezen a linken talál<br><br>";
 $message .= " $emaillink <br><br>";

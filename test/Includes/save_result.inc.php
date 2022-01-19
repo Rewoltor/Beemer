@@ -2,7 +2,7 @@
 
 session_start();
 
-$userId = $_SESSION['userId'];
+$clientsId = $_SESSION['clientsId'];
 
 if (isset($_POST["submit"])) {
 
@@ -15,7 +15,7 @@ if (isset($_POST["submit"])) {
     require_once 'calc/co.calc.inc.php';
     require_once 'functions.test.save.php';
 
-    Result($conn, $userId, $o_rest, $c_rest, $e_rest, $a_rest, $n_rest, $co_rest);
+    Result($conn, $userId, $o_rest, $c_rest, $e_rest, $a_rest, $n_rest, $co_rest, $clientsId);
 
 } else {
     header("location: ../sikeres_test.php?wattafaka");

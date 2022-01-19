@@ -18,9 +18,6 @@ CREATE TABLE client_user (
 CREATE TABLE users (
 	userId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
     usersVez_nev varchar(128) NOT NULL,
-    usersKer_nev varchar(128) NOT NULL,
-    userssex varchar(128) NOT NULL,
-    usersbirthday varchar(128) NOT NULL,
     registerTime varchar(128) NOT NULL,
     usersEmail varchar(128) NOT NULL,
     registerId varchar(128) NOT NULL,
@@ -232,7 +229,8 @@ CREATE TABLE t_results (
     t_extroversion varchar(128) NOT NULL,
     t_agreeableness varchar(128) NOT NULL,
     t_neuroticism varchar(128) NOT NULL,
-    cognitrive varchar(128) NOT NULL
+    cognitrive varchar(128) NOT NULL,
+    clientsId varchar(128) NOT NULL
 );
 
 CREATE TABLE results (

@@ -27,7 +27,7 @@
         <div id="title">
             <i class="material-icons lock">lock</i> Első lépés
         </div>
-
+        
 
         <!-- error handler php input -->
         <?php include 'includes/error.php';?>
@@ -36,6 +36,7 @@
 
             <div class="clearfix"></div>
 
+
             <!-- egymás melletti szövegdobozok a beírásra -->
             <div class="input">
                 <div class="input-field"><div class="input-addon">
@@ -43,48 +44,11 @@
                 </div>
                 <input id="vez_nev" placeholder="Becenév" name="vez_nev" type="text" required class="validate">
                 </div>
-            </div>        
+            </div> 
 
-            <div id="input-addon" class="input">
-                <div class="input-addon">
-                    <i class="material-icons">cake</i>
-                </div>
-                <input type="text" id="my-input" name="my-input" size="20" placeholder="Születésnap">
-            <script LANGUAGE="JavaScript" src="dist/calc.js"></script>   
-            </div>
-
-            
-            <div class="row">
-                <form class="register">
-                    <div class="register-switch">
-                        <input type="radio" name="sex" value="Ferfi" id="Ferfi" class="register-switch-input" >
-                        <label for="Ferfi" class="register-switch-label">Férfi</label>
-                        <input type="radio" name="sex" value="No" id="No" class="register-switch-input">
-                        <label for="No" class="register-switch-label">Nő</label>
-                        <input type="radio" name="sex" value="None1" id="None1" class="register-switch-input" checked="checked" style="opacity: 0;">
-                    </div>
-            </div>
-
-
-            
-
-            <div class="input" style="height:28px">
-                <div class="input-field"><div class="input-addon">
-                    <i class="material-icons">school</i>
-                </div>
-                    <select name="school">
-                        <option name="school" value="0">Iskolai végzettség</option>
-                        <option name="school" value="8">8 Általános</option>
-                        <option name="school" value="Szakkozep">Szakközép</option>
-                        <option name="school" value="Gimnazium">Gimnázium</option>
-                        <option name="school" value="Foiskola">Főiskola</option>
-                        <option name="school" value="Egyetem">Egyetem</option>
-                    </select>
-                </div>
-            </div>    
-
-
-
+            <?php $usersEmail = $_GET["email"]; $clientsId = $_GET["clientsId"]; ?>
+            <input type='hidden' name='email' value='<?php echo "$usersEmail";?>'/> 
+            <input type='hidden' name='clientsId' value='<?php echo "$clientsId";?>'/>
 
 
             <!-- don't know what da fukk is this -->
