@@ -33,11 +33,11 @@ function smtp_mailer($to,$subject, $msg){
 	));
 	if(!$mail->Send()){
 		//echo $mail->ErrorInfo;
-		header("location: ../siker_login.php?nono"); //post register path
+		header("location: ../client_page.php?nono"); //post register path
 		exit();
 	}else{
 		//return 'Sent';
-		header("location: ../siker_login.php?siker"); //post register path
+		header("location: ../client_page.php?siker"); //post register path
 		exit();
 	}
 }

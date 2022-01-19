@@ -30,7 +30,7 @@
 
 
         <!-- error handler php input -->
-        <?php include 'includes/error.php';?>
+        <?php include 'Includes/error.php';?>
 
             <form action="Includes/mailer.inc.php" method="post">
                 <div class="input">
@@ -57,7 +57,7 @@
 
             <div class="register">
                 <p></p>
-                <a href="includes/logout.inc.php"><button id="register-link">Kijelentkezés</button></a>
+                <a href="Includes/logout.inc.php"><button id="register-link">Kijelentkezés</button></a>
             </div>
 
 
