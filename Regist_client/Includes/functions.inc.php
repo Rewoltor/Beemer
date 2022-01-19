@@ -138,7 +138,7 @@ function loginclient($conn, $email, $pwd) {
         session_start();
         $_SESSION['clientsId'] = $emailexists['clientsId'];
         $_SESSION['clientsEmail'] = $emailexists['clientsEmail'];
-        header ("location: ../siker_login.php"); //after login path
+        header ("location: ../client_page.php"); //after login path
         exit();
     }
 }

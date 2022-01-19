@@ -7,8 +7,8 @@ $dBUsername = "root";
 $dBPassword = "";
 $dBName = "beemer2"; //name of mysql database xampp
 
-*/
 
+*/
 
 
 
