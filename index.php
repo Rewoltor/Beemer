@@ -44,10 +44,10 @@
                 </ul>
                 <div class="text-right">
                     <a href="Regist/register.php" class="btn btn-primary mr-3 font-weight-bold">
-                        Regisztráció
+                        Teszt kitöltése
                     </a>
-                    <a href="Regist/login.php">
-                        Bejelentkezés
+                    <a href="Regist_client/register.php">
+                        Cégeknek
                     </a>
                 </div>
             </div>

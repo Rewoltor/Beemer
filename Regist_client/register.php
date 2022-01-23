@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <div id="container-register">
+    <div id="container-register-client">
         <div id="title">
             <i class="material-icons lock">lock</i> Regisztráció
         </div>
