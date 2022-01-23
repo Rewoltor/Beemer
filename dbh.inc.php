@@ -8,8 +8,8 @@ $dBPassword = "";
 $dBName = "beemer2"; //name of mysql database xampp
 
 
-*/
 
+*/
 
 
 $serverName = "eu-cdbr-west-02.cleardb.net";

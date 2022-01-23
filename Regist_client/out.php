@@ -25,7 +25,7 @@
 <body>
     <div id="container-register">
         <div id="title">
-            <i class="material-icons lock">lock</i> Nem jelentkezett még be
+            <i class="material-icons lock">lock</i>Nincsen bejelentkezve
         </div>
 
 

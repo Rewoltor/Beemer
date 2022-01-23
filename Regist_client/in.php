@@ -1,5 +1,14 @@
 <html>
-
+<?php
+/*
+if (isset($_SESSION['clientsId'])) {
+          echo "Cool";
+          echo $_SESSION['clientsId'];
+      } else {
+           echo "Not cool";
+      }
+*/
+?>
 <head>
     <meta charset="UTF-8">
     <title>Regisztráció</title>
@@ -33,6 +42,7 @@
         <?php include 'Includes/error.php';?>
 
             <form action="Includes/mailer.inc.php" method="post">
+            <p>Teszt kiküldése</p>
                 <div class="input">
                     <div class="input-field"><div class="input-addon">
                         <i class="material-icons">email</i>
@@ -41,7 +51,7 @@
                     </div>
                 </div> 
                 
-                <div class="register-button">
+                <div class="button" style="margin-top: 5%;">
                     <input type="submit" name="submit" class="inputButton"  id="submit" value="Email küldése" /> <!-- a "name" számít a .php-nál   -->
                     <script LANGUAGE="JavaScript" src="dist/box.js"></script> <!-- .js for, if box is not checked not clickable -->
                 </div>
@@ -50,8 +60,8 @@
             </form>    
 
 
-            <div class="button">
-                <p></p>
+            <div class="register">
+                <p>Teszteredmények letöltése</p>
                 <a href="Includes/download.inc.php"><button id="register-link">Export</button></a>
             </div>
 
