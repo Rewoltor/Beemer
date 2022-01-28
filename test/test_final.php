@@ -63,14 +63,14 @@ echo   '<html>
                         <div id="title">
                         <i class="material-icons lock"></i> Sajnos még nincsen bejelentkezve
                     </div>
-                    
-                    <form action="login.php" method="post">
+                <!--
+                    <form action="../Regist/login.php" method="post">
                         <div class="register-button">
                             <input type="submit" name="submit" value="Bejelentkezés" class="inputButton" style="margin-top: 13%;"> 
                         </div>
                     </form>
-                    
-                    <form action="register.php" method="post">
+                -->
+                    <form action="../Regist/register.php" method="post">
                         <div class="register-button">
                             <input type="submit" name="submit" value="Regisztráció" class="inputButton" style="margin-top: 13%;"> 
                         </div>
