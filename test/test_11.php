@@ -43,32 +43,32 @@
             <div class="questionForm" id="co1" data-question="1">
                 <td>1/10
                 <div class="main-image-div">
-                    <img src="img/1.jpg" class="main-image"></img>
+                    <img src="img/9.png" class="main-image"></img>
                 </div>
                 <div class="choices">
                     <div class="option">
                         <input type="radio" class="kimage1" id="co1" name="co1" value="a">
-                        <img name="co1" class="kimage" src="img/1.1.jpg" />
+                        <img name="co1" class="kimage" src="img/9.1.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage1" id="co1" name="co1" value="b">
-                        <img name="co1" class="kimage" src="img/1.2.jpg" />
+                        <img name="co1" class="kimage" src="img/9.2.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage1" id="co1" name="co1" value="c">
-                        <img name="co1" class="kimage" src="img/1.3.jpg" />
+                        <img name="co1" class="kimage" src="img/9.3.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage1" id="co1" name="co1" value="d">
-                        <img name="co1" class="kimage" src="img/1.4.jpg" />
+                        <img name="co1" class="kimage" src="img/9.4.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage1" id="co1" name="co1" value="e">
-                        <img name="co1" class="kimage" src="img/1.5.jpg" />
+                        <img name="co1" class="kimage" src="img/9.5.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage1" id="co1" name="co1" value="f">
-                        <img name="co1" class="kimage" src="img/1.6.jpg" />
+                        <img name="co1" class="kimage" src="img/9.6.png" />
                         <input type="radio" class="kimage" id="co1" name="co1" value="0" checked="checked" style="opacity: 0;">
                     </div>
                     <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
@@ -81,32 +81,32 @@
             <div class="questionForm" id="co2" data-question="2">
                 <td>2/10
                 <div class="main-image-div">
-                    <img src="img/2.jpg" class="main-image"></img>
+                    <img src="img/6.png" class="main-image"></img>
                 </div>
                 <div class="choices">
                     <div class="option">
                         <input type="radio" class="kimage2" id="co2" name="co2" value="a">
-                        <img name="co2" class="kimage" src="img/2.1.jpg" />
+                        <img name="co2" class="kimage" src="img/6.1.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage2" id="co2" name="co2" value="b">
-                        <img name="co2" class="kimage" src="img/2.2.jpg" />
+                        <img name="co2" class="kimage" src="img/6.2.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage2" id="co2" name="co2" value="c">
-                        <img name="co2" class="kimage" src="img/2.3.jpg" />
+                        <img name="co2" class="kimage" src="img/6.3.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage2" id="co2" name="co2" value="d">
-                        <img name="co2" class="kimage" src="img/2.4.jpg" />
+                        <img name="co2" class="kimage" src="img/6.4.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage2" id="co2" name="co2" value="e">
-                        <img name="co2" class="kimage" src="img/2.5.jpg" />
+                        <img name="co2" class="kimage" src="img/6.5.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage2" id="co2" name="co2" value="f">
-                        <img name="co2" class="kimage" src="img/2.6.jpg" />
+                        <img name="co2" class="kimage" src="img/6.6.png" />
                         <input type="radio" class="kimage2" id="co2" name="co2" value="0" checked="checked" style="opacity: 0;">
                     </div>
                     <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
@@ -119,32 +119,32 @@
             <div class="questionForm" id="co3" data-question="3">
                 <td>3/10
                 <div class="main-image-div">
-                    <img src="img/3.jpg" class="main-image"></img>
+                    <img src="img/7.png" class="main-image"></img>
                 </div>
                 <div class="choices">
                     <div class="option">
                         <input type="radio" class="kimage3" id="co3" name="co3" value="a">
-                        <img name="co3" class="kimage" src="img/3.1.jpg" />
+                        <img name="co3" class="kimage" src="img/7.1.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage3" id="co3" name="co3" value="b">
-                        <img name="co3" class="kimage" src="img/3.2.jpg" />
+                        <img name="co3" class="kimage" src="img/7.2.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage3" id="co3" name="co3" value="c">
-                        <img name="co3" class="kimage" src="img/3.3.jpg" />
+                        <img name="co3" class="kimage" src="img/7.3.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage3" id="co3" name="co3" value="d">
-                        <img name="co3" class="kimage" src="img/3.4.jpg" />
+                        <img name="co3" class="kimage" src="img/7.4.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage3" id="co3" name="co3" value="e">
-                        <img name="co3" class="kimage" src="img/3.5.jpg" />
+                        <img name="co3" class="kimage" src="img/7.5.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage3" id="co3" name="co3" value="f">
-                        <img name="co3" class="kimage" src="img/3.6.jpg" />
+                        <img name="co3" class="kimage" src="img/7.6.png" />
                         <input type="radio" class="kimage3" id="co3" name="co3" value="0" checked="checked" style="opacity: 0;">
                     </div>
                     <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
@@ -155,32 +155,32 @@
             <div class="questionForm" id="co4" data-question="4">
                 <td>4/10
                 <div class="main-image-div">
-                    <img src="img/4.jpg" class="main-image"></img>
+                    <img src="img/1.png" class="main-image"></img>
                 </div>
                 <div class="choices">
                     <div class="option">
                         <input type="radio" class="kimage4" id="co4" name="co4" value="a">
-                        <img name="co4" class="kimage" src="img/4.1.jpg" />
+                        <img name="co4" class="kimage" src="img/1.1.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage4" id="co4" name="co4" value="b">
-                        <img name="co4" class="kimage" src="img/4.2.jpg" />
+                        <img name="co4" class="kimage" src="img/1.2.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage4" id="co4" name="co4" value="c">
-                        <img name="co4" class="kimage" src="img/4.3.jpg" />
+                        <img name="co4" class="kimage" src="img/1.3.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage4" id="co4" name="co4" value="d">
-                        <img name="co4" class="kimage" src="img/4.4.jpg" />
+                        <img name="co4" class="kimage" src="img/1.4.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage4" id="co4" name="co4" value="e">
-                        <img name="co4" class="kimage" src="img/4.5.jpg" />
+                        <img name="co4" class="kimage" src="img/1.5.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage4" id="co4" name="co4" value="f">
-                        <img name="co4" class="kimage" src="img/4.6.jpg" />
+                        <img name="co4" class="kimage" src="img/1.6.png" />
                         <input type="radio" class="kimage4" id="co4" name="co4" value="0" checked="checked" style="opacity: 0;">
                     </div>
                     <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
@@ -191,32 +191,32 @@
             <div class="questionForm" id="co5" data-question="5">
                 <td>5/10
                 <div class="main-image-div">
-                    <img src="img/5.jpg" class="main-image"></img>
+                    <img src="img/10.png" class="main-image"></img>
                 </div>
                 <div class="choices">
                     <div class="option">
                         <input type="radio" class="kimage5" id="co5" name="co5" value="a">
-                        <img name="co5" class="kimage" src="img/5.1.jpg" />
+                        <img name="co5" class="kimage" src="img/10.1.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage5" id="co5" name="co5" value="b">
-                        <img name="co5" class="kimage" src="img/5.2.jpg" />
+                        <img name="co5" class="kimage" src="img/10.2.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage5" id="co5" name="co5" value="c">
-                        <img name="co5" class="kimage" src="img/5.3.jpg" />
+                        <img name="co5" class="kimage" src="img/10.3.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage5" id="co5" name="co5" value="d">
-                        <img name="co5" class="kimage" src="img/5.4.jpg" />
+                        <img name="co5" class="kimage" src="img/10.4.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage5" id="co5" name="co5" value="e">
-                        <img name="co5" class="kimage" src="img/5.5.jpg" />
+                        <img name="co5" class="kimage" src="img/10.5.png" />
                     </div>
                     <div class="option">
                         <input type="radio" class="kimage5" id="co5" name="co5" value="f">
-                        <img name="co5" class="kimage" src="img/5.6.jpg" />
+                        <img name="co5" class="kimage" src="img/10.6.png" />
                         <input type="radio" class="kimage5" id="co5" name="co5" value="0" checked="checked" style="opacity: 0;">
                     </div>
                     <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
@@ -227,78 +227,88 @@
             <div class="questionForm" id="co6" data-question="6">
                 <td>6/10
                 <div class="main-image-div">
-                    <img src="img/6.jpg" class="main-image"></img>
+                    <img src="img/2.png" class="main-image"></img>
                 </div>
-                <div class="choices">
-                    <div class="option">
-                        <input type="radio" class="kimage6" id="co6" name="co6" value="a">
-                        <img name="co6" class="kimage" src="img/6.1.jpg" />
+                <div class="choices1">
+                    <div class="option1">
+                        <input type="radio" class="kimage7" id="co6" name="co6" value="a">
+                        <img name="co6" class="kimage11" src="img/2.1.png" />
                     </div>
-                    <div class="option">
+                    <div class="option1">
                         <input type="radio" class="kimage6" id="co6" name="co6" value="b">
-                        <img name="co6" class="kimage" src="img/6.2.jpg" />
+                        <img name="co6" class="kimage11" src="img/2.2.png" />
                     </div>
-                    <div class="option">
-                        <input type="radio" class="kimage6" id="co6" name="co6" value="c">
-                        <img name="co6" class="kimage" src="img/6.3.jpg" />
+                    <div class="option1">
+                        <input type="radio" class="kimage7" id="co6" name="co6" value="c">
+                        <img name="co6" class="kimage11" src="img/2.3.png" />
                     </div>
-                    <div class="option">
+                    <div class="option1">
                         <input type="radio" class="kimage6" id="co6" name="co6" value="d">
-                        <img name="co6" class="kimage" src="img/6.4.jpg" />
+                        <img name="co6" class="kimage11" src="img/2.4.png" />
                     </div>
-                    <div class="option">
-                        <input type="radio" class="kimage6" id="co6" name="co6" value="e">
-                        <img name="co6" class="kimage" src="img/6.5.jpg" />
+                </div> 
+                <div class="choices1">
+                    <div class="option1">
+                        <input type="radio" class="kimage7" id="co6" name="co6" value="e">
+                        <img name="co6" class="kimage11" src="img/2.5.png" />
                     </div>
-                    <div class="option">
+                    <div class="option1">
                         <input type="radio" class="kimage6" id="co6" name="co6" value="f">
-                        <img name="co6" class="kimage" src="img/6.6.jpg" />
-                        <input type="radio" class="kimage6" id="co6" name="co6" value="0" checked="checked" style="opacity: 0;">
+                        <img name="co6" class="kimage11" src="img/2.6.png" />
+                    </div>
+                    <div class="option1">
+                        <input type="radio" class="kimage6" id="co6" name="co6" value="g">
+                        <img name="co6" class="kimage11" src="img/2.7.png" />
+                    </div>
+                    <div class="option1">
+                        <input type="radio" class="kimage6" id="co6" name="co6" value="h">
+                        <img name="co6" class="kimage11" src="img/2.8.png" />
+                        <input type="radio" class="kimage7" id="co6" name="co6" value="0" checked="checked" style="opacity: 0;">
                     </div>
                     <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
                 </div>
-                <button name="submit" id="submit" class="submit6">Következő</button>
+                <button name="submit" id="submit" class="submit7">Következő</button>
             </div>
             
             <div class="questionForm" id="co7" data-question="7">
                 <td>7/10
                 <div class="main-image-div">
-                    <img src="img/7.jpg" class="main-image"></img>
+                    <img src="img/3.png" class="main-image"></img>
                 </div>
                 <div class="choices1">
                     <div class="option1">
                         <input type="radio" class="kimage7" id="co7" name="co7" value="a">
-                        <img name="co7" class="kimage11" src="img/7.1.jpg" />
+                        <img name="co7" class="kimage11" src="img/3.1.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage7" id="co7" name="co7" value="b">
-                        <img name="co7" class="kimage11" src="img/7.2.jpg" />
+                        <img name="co7" class="kimage11" src="img/3.2.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage7" id="co7" name="co7" value="c">
-                        <img name="co7" class="kimage11" src="img/7.3.jpg" />
+                        <img name="co7" class="kimage11" src="img/3.3.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage7" id="co7" name="co7" value="d">
-                        <img name="co7" class="kimage11" src="img/7.4.jpg" />
+                        <img name="co7" class="kimage11" src="img/3.4.png" />
                     </div>
                 </div> 
                 <div class="choices1">
                     <div class="option1">
                         <input type="radio" class="kimage7" id="co7" name="co7" value="e">
-                        <img name="co7" class="kimage11" src="img/7.5.jpg" />
+                        <img name="co7" class="kimage11" src="img/3.5.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage7" id="co7" name="co7" value="f">
-                        <img name="co7" class="kimage11" src="img/7.6.jpg" />
+                        <img name="co7" class="kimage11" src="img/3.6.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage7" id="co7" name="co7" value="g">
-                        <img name="co7" class="kimage11" src="img/7.7.jpg" />
+                        <img name="co7" class="kimage11" src="img/3.7.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage7" id="co7" name="co7" value="h">
-                        <img name="co7" class="kimage11" src="img/7.8.jpg" />
+                        <img name="co7" class="kimage11" src="img/3.8.png" />
                         <input type="radio" class="kimage7" id="co7" name="co7" value="0" checked="checked" style="opacity: 0;">
                     </div>
                     <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
@@ -309,42 +319,42 @@
             <div class="questionForm" id="co8" data-question="8">
                 <td>8/10
                 <div class="main-image-div">
-                    <img src="img/8.jpg" class="main-image"></img>
+                    <img src="img/4.png" class="main-image"></img>
                 </div>
                 <div class="choices1">
                     <div class="option1">
                         <input type="radio" class="kimage8" id="co8" name="co8" value="a">
-                        <img name="co8" class="kimage11" src="img/8.1.jpg" />
+                        <img name="co8" class="kimage11" src="img/4.1.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage8" id="co8" name="co8" value="b">
-                        <img name="co8" class="kimage11" src="img/8.2.jpg" />
+                        <img name="co8" class="kimage11" src="img/4.2.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage8" id="co8" name="co8" value="c">
-                        <img name="co8" class="kimage11" src="img/8.3.jpg" />
+                        <img name="co8" class="kimage11" src="img/4.3.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage8" id="co8" name="co8" value="d">
-                        <img name="co8" class="kimage11" src="img/8.4.jpg" />
+                        <img name="co8" class="kimage11" src="img/4.4.png" />
                     </div>
                 </div> 
                 <div class="choices1">
                     <div class="option1">
                         <input type="radio" class="kimage8" id="co8" name="co8" value="e">
-                        <img name="co8" class="kimage11" src="img/8.5.jpg" />
+                        <img name="co8" class="kimage11" src="img/4.5.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage8" id="co8" name="co8" value="f">
-                        <img name="co8" class="kimage11" src="img/8.6.jpg" />
+                        <img name="co8" class="kimage11" src="img/4.6.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage8" id="co8" name="co8" value="g">
-                        <img name="co8" class="kimage11" src="img/8.7.jpg" />
+                        <img name="co8" class="kimage11" src="img/4.7.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage8" id="co8" name="co8" value="h">
-                        <img name="co8" class="kimage11" src="img/8.8.jpg" />
+                        <img name="co8" class="kimage11" src="img/4.8.png" />
                         <input type="radio" class="kimage8" id="co8" name="co8" value="0" checked="checked" style="opacity: 0;">
                     </div>
                     <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
@@ -355,42 +365,42 @@
             <div class="questionForm" id="co9" data-question="9">
                 <td>9/10
                 <div class="main-image-div">
-                    <img src="img/9.jpg" class="main-image"></img>
+                    <img src="img/5.png" class="main-image"></img>
                 </div>
                 <div class="choices1">
                     <div class="option1">
                         <input type="radio" class="kimage9" id="co9" name="co9" value="a">
-                        <img name="co9" class="kimage11" src="img/9.1.jpg" />
+                        <img name="co9" class="kimage11" src="img/5.1.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage9" id="co9" name="co9" value="b">
-                        <img name="co9" class="kimage11" src="img/9.2.jpg" />
+                        <img name="co9" class="kimage11" src="img/5.2.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage9" id="co9" name="co9" value="c">
-                        <img name="co9" class="kimage11" src="img/9.3.jpg" />
+                        <img name="co9" class="kimage11" src="img/5.3.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage9" id="co9" name="co9" value="d">
-                        <img name="co9" class="kimage11" src="img/9.4.jpg" />
+                        <img name="co9" class="kimage11" src="img/5.4.png" />
                     </div>
                 </div> 
                 <div class="choices1">
                     <div class="option1">
                         <input type="radio" class="kimage9" id="co9" name="co9" value="e">
-                        <img name="co9" class="kimage11" src="img/9.5.jpg" />
+                        <img name="co9" class="kimage11" src="img/5.5.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage9" id="co9" name="co9" value="f">
-                        <img name="co9" class="kimage11" src="img/9.6.jpg" />
+                        <img name="co9" class="kimage11" src="img/5.6.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage9" id="co9" name="co9" value="g">
-                        <img name="co9" class="kimage11" src="img/9.7.jpg" />
+                        <img name="co9" class="kimage11" src="img/5.7.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage9" id="co9" name="co9" value="h">
-                        <img name="co9" class="kimage11" src="img/9.8.jpg" />
+                        <img name="co9" class="kimage11" src="img/5.8.png" />
                         <input type="radio" class="kimage9" id="co9" name="co9" value="0" checked="checked" style="opacity: 0;">
                     </div>
                     <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
@@ -401,42 +411,42 @@
             <div class="questionForm" id="co10" data-question="10">
                 <td>10/10
                 <div class="main-image-div">
-                    <img src="img/10.jpg" class="main-image"></img>
+                    <img src="img/8.png" class="main-image"></img>
                 </div>
                 <div class="choices1">
                     <div class="option1">
                         <input type="radio" class="kimage110" id="co10" name="co10" value="a">
-                        <img name="co10" class="kimage11" src="img/10.1.jpg" />
+                        <img name="co10" class="kimage11" src="img/8.1.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage110" id="co10" name="co10" value="b">
-                        <img name="co10" class="kimage11" src="img/10.2.jpg" />
+                        <img name="co10" class="kimage11" src="img/8.2.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage110" id="co10" name="co10" value="c">
-                        <img name="co10" class="kimage11" src="img/10.3.jpg" />
+                        <img name="co10" class="kimage11" src="img/8.3.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage110" id="co10" name="co10" value="d">
-                        <img name="co10" class="kimage11" src="img/10.4.jpg" />
+                        <img name="co10" class="kimage11" src="img/8.4.png" />
                     </div>
                 </div> 
                 <div class="choices1">
                     <div class="option1">
                         <input type="radio" class="kimage110" id="co10" name="co10" value="e">
-                        <img name="co10" class="kimage11" src="img/10.5.jpg" />
+                        <img name="co10" class="kimage11" src="img/8.5.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage110" id="co10" name="co10" value="f">
-                        <img name="co10" class="kimage11" src="img/10.6.jpg" />
+                        <img name="co10" class="kimage11" src="img/8.6.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage110" id="co10" name="co10" value="g">
-                        <img name="co10" class="kimage11" src="img/10.7.jpg" />
+                        <img name="co10" class="kimage11" src="img/8.7.png" />
                     </div>
                     <div class="option1">
                         <input type="radio" class="kimage110" id="co10" name="co10" value="h">
-                        <img name="co10" class="kimage11" src="img/10.8.jpg" />
+                        <img name="co10" class="kimage11" src="img/8.8.png" />
                         <input type="radio" class="kimage110" id="co10" name="co10" value="0" checked="checked" style="opacity: 0;">
                     </div>
                     <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
