@@ -1,125 +1,265 @@
 <?php
-    include_once 'header.php';
+  session_start();
+    //include_once 'header.php';
+
+  if (isset($_SESSION['userId'])) {
+    echo "Cool";
+    echo $_SESSION['userId'];
+  } else {
+       echo "Not cool";
+  }
 ?>
 
-  <body>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="0.css">
 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="Includes/test.inc.php" method="post">
+  
+  <div class="rb-box">
 
+    <!-- Radio Button Module -->
+    <p style="text-align: center">Könnyen kizökkentenek a váratlan események</p>      
+    <div class="rb">
+      <div class="rb-tab">
+        <td><input type="radio" id="q81" name="q81" value="1"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q81" name="q81" value="2"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q81" name="q81" value="3"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q81" name="q81" value="4"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q81" name="q81" value="5"></td>
+      </div>
+      <div>
+        <div class="pull-left">Hamis</div>
+        <div class="pull-right">Igaz</div>
+      </div>
+    </div>
 
-    <form action="Includes/test.inc.php" method="post">
+    <p style="text-align: center">Nincs gyengéd oldalam</p>      
+    <div class="rb">
+      <div class="rb-tab">
+        <td><input type="radio" id="q82" name="q82" value="1"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q82" name="q82" value="2"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q82" name="q82" value="3"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q82" name="q82" value="4"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q82" name="q82" value="5"></td>
+      </div>
+      <div>
+        <div class="pull-left">Hamis</div>
+        <div class="pull-right">Igaz</div>
+      </div>
+    </div>
 
-        <table>
-            <tr>
-                <th class="right-col"></th>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th>4</th>
-                <th>5</th>
-            </tr>
+    <p style="text-align: center">Halogatom el a döntéseimet</p>      
+    <div class="rb">
+      <div class="rb-tab">
+        <td><input type="radio" id="q83" name="q83" value="1"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q83" name="q83" value="2"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q83" name="q83" value="3"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q83" name="q83" value="4"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q83" name="q83" value="5"></td>
+      </div>
+      <div>
+        <div class="pull-left">Hamis</div>
+        <div class="pull-right">Igaz</div>
+      </div>
+    </div>
 
+    <p style="text-align: center">Gyakran szórakozom</p>      
+    <div class="rb">
+      <div class="rb-tab">
+        <td><input type="radio" id="q84" name="q84" value="1"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q84" name="q84" value="2"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q84" name="q84" value="3"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q84" name="q84" value="4"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q84" name="q84" value="5"></td>
+      </div>
+      <div>
+        <div class="pull-left">Hamis</div>
+        <div class="pull-right">Igaz</div>
+      </div>
+    </div>
 
-            <tr>
-                <td class="first-col">Könnyen kizökkentenek a váratlan események
-                    <td><input type="radio" name="q81" value="1" id="q81"></td>
-                    <td><input type="radio" name="q81" value="2" id="q81"></td>
-                    <td><input type="radio" name="q81" value="3" id="q81"></td>
-                    <td><input type="radio" name="q81" value="4" id="q81"></td>
-                    <td><input type="radio" name="q81" value="5" id="q81"></td>
-                </td>
-            </tr>
-            <tr>
-                <td class="first-col">Nincs gyengéd oldalam
-                    <td><input type="radio" name="q82" value="1" id="q82"></td>
-                    <td><input type="radio" name="q82" value="2" id="q82"></td>
-                    <td><input type="radio" name="q82" value="3" id="q82"></td>
-                    <td><input type="radio" name="q82" value="4" id="q82"></td>
-                    <td><input type="radio" name="q82" value="5" id="q82"></td>
-                </td>
-            </tr>
-            <tr>
-                <td class="first-col">Halogatom el a döntéseimet
-                    <td><input type="radio" name="q83" value="1" id="q83"></td>
-                    <td><input type="radio" name="q83" value="2" id="q83"></td>
-                    <td><input type="radio" name="q83" value="3" id="q83"></td>
-                    <td><input type="radio" name="q83" value="4" id="q83"></td>
-                    <td><input type="radio" name="q83" value="5" id="q83"></td>
-                </td>
-            </tr>
-            <tr>
-                <td class="first-col">Gyakran szórakozom
-                    <td><input type="radio" name="q84" value="1" id="q84"></td>
-                    <td><input type="radio" name="q84" value="2" id="q84"></td>
-                    <td><input type="radio" name="q84" value="3" id="q84"></td>
-                    <td><input type="radio" name="q84" value="4" id="q84"></td>
-                    <td><input type="radio" name="q84" value="5" id="q84"></td>
-                </td>
-            </tr>
-            <tr>
-                <td class="first-col">Lassan tanulok
-                    <td><input type="radio" name="q85" value="1" id="q85"></td>
-                    <td><input type="radio" name="q85" value="2" id="q85"></td>
-                    <td><input type="radio" name="q85" value="3" id="q85"></td>
-                    <td><input type="radio" name="q85" value="4" id="q85"></td>
-                    <td><input type="radio" name="q85" value="5" id="q85"></td>
-                </td>
-            </tr>
-            <tr>
-                <td class="first-col">Könnyen fel lehet zaklatni
-                    <td><input type="radio" name="q86" value="1" id="q86"></td>
-                    <td><input type="radio" name="q86" value="2" id="q86"></td>
-                    <td><input type="radio" name="q86" value="3" id="q86"></td>
-                    <td><input type="radio" name="q86" value="4" id="q86"></td>
-                    <td><input type="radio" name="q86" value="5" id="q86"></td>
-                </td>
-            </tr>
-            <tr>
-                <td class="first-col">Szeretem a jóféle vitákat
-                    <td><input type="radio" name="q87" value="1" id="q87"></td>
-                    <td><input type="radio" name="q87" value="2" id="q87"></td>
-                    <td><input type="radio" name="q87" value="3" id="q87"></td>
-                    <td><input type="radio" name="q87" value="4" id="q87"></td>
-                    <td><input type="radio" name="q87" value="5" id="q87"></td>
-                </td>
-            </tr>
-            <tr>
-                <td class="first-col">Azt gondolom, hogy a szabályok csak útmutatók
-                    <td><input type="radio" name="q88" value="1" id="q88"></td>
-                    <td><input type="radio" name="q88" value="2" id="q88"></td>
-                    <td><input type="radio" name="q88" value="3" id="q88"></td>
-                    <td><input type="radio" name="q88" value="4" id="q88"></td>
-                    <td><input type="radio" name="q88" value="5" id="q88"></td>
-                </td>
-            </tr>
-            <tr>
-                <td class="first-col">Én vagyok az első, aki cselekszik
-                    <td><input type="radio" name="q89" value="1" id="q89"></td>
-                    <td><input type="radio" name="q89" value="2" id="q89"></td>
-                    <td><input type="radio" name="q89" value="3" id="q89"></td>
-                    <td><input type="radio" name="q89" value="4" id="q89"></td>
-                    <td><input type="radio" name="q89" value="5" id="q89"></td>
-                </td>
-            </tr>
-            <tr>
-                <td class="first-col">Ritkán ábrándozom
-                    <td><input type="radio" name="q90" value="1" id="q90"></td>
-                    <td><input type="radio" name="q90" value="2" id="q90"></td>
-                    <td><input type="radio" name="q90" value="3" id="q90"></td>
-                    <td><input type="radio" name="q90" value="4" id="q90"></td>
-                    <td><input type="radio" name="q90" value="5" id="q90"></td>
-                </td>
-            </tr>
-            <script LANGUAGE="JavaScript" src="Js/boxes.js"></script>  
-        </table>
+    <p style="text-align: center">Lassan tanulok</p>      
+    <div class="rb">
+      <div class="rb-tab">
+        <td><input type="radio" id="q85" name="q85" value="1"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q85" name="q85" value="2"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q85" name="q85" value="3"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q85" name="q85" value="4"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q85" name="q85" value="5"></td>
+      </div>
+      <div>
+        <div class="pull-left">Hamis</div>
+        <div class="pull-right">Igaz</div>
+      </div>
+    </div>
 
-        <div class="register-button">
-            <p desabled id="disableOn10"> Válaszoljon az összes kérdésre</p>
-            <input type="submit" name="submit9" class="inputButton" disabled id="enable-on-two" value="Következő" /> <!-- a "name" számít a .php-nál -->
-        </div>
+    <p style="text-align: center">Könnyen fel lehet zaklatni</p>      
+    <div class="rb">
+      <div class="rb-tab">
+        <td><input type="radio" id="q86" name="q86" value="1"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q86" name="q86" value="2"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q86" name="q86" value="3"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q86" name="q86" value="4"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q86" name="q86" value="5"></td>
+      </div>
+      <div>
+        <div class="pull-left">Hamis</div>
+        <div class="pull-right">Igaz</div>
+      </div>
+    </div>
 
-    </form>
+    <p style="text-align: center">Szeretem a jóféle vitákat</p>      
+    <div class="rb">
+      <div class="rb-tab">
+        <td><input type="radio" id="q87" name="q87" value="1"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q87" name="q87" value="2"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q87" name="q87" value="3"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q87" name="q87" value="4"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q87" name="q87" value="5"></td>
+      </div>
+      <div>
+        <div class="pull-left">Hamis</div>
+        <div class="pull-right">Igaz</div>
+      </div>
+    </div>
 
+    <p style="text-align: center">Azt gondolom, hogy a szabályok csak útmutatók</p>      
+    <div class="rb">
+      <div class="rb-tab">
+        <td><input type="radio" id="q88" name="q88" value="1"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q88" name="q88" value="2"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q88" name="q88" value="3"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q88" name="q88" value="4"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q88" name="q88" value="5"></td>
+      </div>
+      <div>
+        <div class="pull-left">Hamis</div>
+        <div class="pull-right">Igaz</div>
+      </div>
+    </div>
 
-  </body>
-</html>
+    <p style="text-align: center">Én vagyok az első, aki cselekszik</p>      
+    <div class="rb">
+      <div class="rb-tab">
+        <td><input type="radio" id="q89" name="q89" value="1"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q89" name="q89" value="2"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q89" name="q89" value="3"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q89" name="q89" value="4"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q89" name="q89" value="5"></td>
+      </div>
+      <div>
+        <div class="pull-left">Hamis</div>
+        <div class="pull-right">Igaz</div>
+      </div>
+    </div>
 
+    <p style="text-align: center">Ritkán ábrándozom</p>      
+    <div class="rb">
+      <div class="rb-tab">
+        <td><input type="radio" id="q90" name="q90" value="1"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q90" name="q90" value="2"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q90" name="q90" value="3"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q90" name="q90" value="4"></td>
+      </div>
+      <div class="rb-tab">
+        <td><input type="radio" id="q90" name="q90" value="5"></td>
+      </div>
+      <div>
+        <div class="pull-left">Hamis</div>
+        <div class="pull-right">Igaz</div>
+      </div>
+    </div>
+
+    <div class="button-box">
+      <button class="button trigger" type="submit" name="submit9">Tovább</button>
+    </div>
+
+ 
+  </div>
+
+</form>

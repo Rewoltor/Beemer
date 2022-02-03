@@ -18,80 +18,81 @@ echo "Not cool";
 
 
 //calculates the correct answer
-  while ($row = mysqli_fetch_assoc($result))
-  {
-    //1
-    //gets data and sorts it witha a if statement into correct "1" and incorrect "0"
-      $co_1 = $row['co1'];
-      if($co_1 == "d"){
-          $co_a_1 = "1";
-      }else{
-          $co_a_1 = "0";
-      }
-      //2
-      $co_2 = $row['co2'];
-      if($co_2 == "c"){
-          $co_a_2 = "1";
-      }else{
-          $co_a_2 = "0";
-      }
-        //3
-      $co_3 = $row['co3'];
-      if($co_3 == "a"){
-          $co_a_3 = "1";
-      }else{
-          $co_a_3 = "0";
-      }
-      //4
-      $co_4 = $row['co4'];
-      if($co_4 == "c"){
-          $co_a_4 = "1";
-      }else{
-          $co_a_4 = "0";
-      }
-      //5
-      $co_5 = $row['co5'];
-      if($co_5 == "e"){
-          $co_a_5 = "1";
-      }else{
-          $co_a_5 = "0";
-      }
-      //6
-      $co_6 = $row['co6'];
-      if($co_6 == "e"){
-          $co_a_6 = "1";
-      }else{
-          $co_a_6 = "0";
-      }
-      //7
-      $co_7 = $row['co7'];
-      if($co_7 == "g"){
-          $co_a_7 = "1";
-      }else{
-          $co_a_7 = "0";
-      }
-      //8
-      $co_8 = $row['co8'];
-      if($co_8 == "b"){
-          $co_a_8 = "1";
-      }else{
-          $co_a_8 = "0";
-      }
-      //9
-      $co_9 = $row['co9'];
-      if($co_9 == "e"){
-          $co_a_9 = "1";
-      }else{
-          $co_a_9 = "0";
-      }
-      //10
-      $co_10 = $row['co10'];
-      if($co_10 == "c"){
-          $co_a_10 = "1";
-      }else{
-          $co_a_10 = "0";
-      }
-  }
+while ($row = mysqli_fetch_assoc($result))
+{
+  //1
+  //gets data and sorts it witha a if statement into correct "1" and incorrect "0"
+    $co_1 = $row['co1'];
+    if($co_1 == "a"){
+        $co_a_1 = "1";
+    }else{
+        $co_a_1 = "0";
+    }
+    //2
+    $co_2 = $row['co2'];
+    if($co_2 == "e"){
+        $co_a_2 = "1";
+    }else{
+        $co_a_2 = "0";
+    }
+      //3
+    $co_3 = $row['co3'];
+    if($co_3 == "d"){
+        $co_a_3 = "1";
+    }else{
+        $co_a_3 = "0";
+    }
+    //4
+    $co_4 = $row['co4'];
+    if($co_4 == "a"){
+        $co_a_4 = "1";
+    }else{
+        $co_a_4 = "0";
+    }
+    //5
+    $co_5 = $row['co5'];
+    if($co_5 == "a"){
+        $co_a_5 = "1";
+    }else{
+        $co_a_5 = "0";
+    }
+    //6
+    $co_6 = $row['co6'];
+    if($co_6 == "b"){
+        $co_a_6 = "1";
+    }else{
+        $co_a_6 = "0";
+    }
+    //7
+    $co_7 = $row['co7'];
+    if($co_7 == "d"){
+        $co_a_7 = "1";
+    }else{
+        $co_a_7 = "0";
+    }
+    //8
+    $co_8 = $row['co8'];
+    if($co_8 == "c"){
+        $co_a_8 = "1";
+    }else{
+        $co_a_8 = "0";
+    }
+    //9
+    $co_9 = $row['co9'];
+    if($co_9 == "d"){
+        $co_a_9 = "1";
+    }else{
+        $co_a_9 = "0";
+    }
+    //10
+    $co_10 = $row['co10'];
+    if($co_10 == "g"){
+        $co_a_10 = "1";
+    }else{
+        $co_a_10 = "0";
+    }
+}
+
 
 
 

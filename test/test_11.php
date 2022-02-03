@@ -454,11 +454,7 @@
                 <button name="submit11" id="submit" class="submit11">Következő</button>
             </div>
             
-        <!--
-            <div class="register-button">
-            <input type="submit" name="submit11" class="inputButton" value="Következő"/>
-            </div>
-        -->
+
 
         </form>
          

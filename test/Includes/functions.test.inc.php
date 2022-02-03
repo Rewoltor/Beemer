@@ -5,7 +5,6 @@ session_start();
 //function page of the php, it handles the data input to ther database from the questionaire
 
 
-
 //    1   send inputs to sql server
 function createTest1($conn, $userId, $q1, $q2, $q3, $q4, $q5, $q6, $q7, $q8, $q9, $q10) {  //variables that are used
     $sql = "INSERT INTO test1 (userId, test1q1, test1q2, test1q3, test1q4, test1q5, test1q6, test1q7, test1q8, test1q9, test1q10) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"; //insert value

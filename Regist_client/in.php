@@ -62,7 +62,7 @@ if (isset($_SESSION['clientsId'])) {
 
             <div class="register">
                 <p>Teszteredmények letöltése</p>
-                <a href="Includes/download.inc.php"><button id="register-link">Export</button></a>
+                <a href="Includes/download.inc.php"><button id="register-link">Eredmények letöltése</button></a>
             </div>
 
             <div class="register">

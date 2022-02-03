@@ -7,7 +7,6 @@ session_start();
 //co(x) is the name of the  cognitive test question input
 
 
-// 1     test input handler for test page 
 if (isset($_POST["submit1"])) {
 
     $userId = $_SESSION['userId'];

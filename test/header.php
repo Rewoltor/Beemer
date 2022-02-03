@@ -16,14 +16,14 @@
 
 
   <?php
-/*
-      if (isset($_SESSION['clientsId'])) {
+
+      if (isset($_SESSION['userId'])) {
           echo "Cool";
-          echo $_SESSION['clientsId'];
+          echo $_SESSION['userId'];
       } else {
            echo "Not cool";
       }
-*/
+
     ?>
 
 
