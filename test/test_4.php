@@ -1,23 +1,8 @@
 <?php
-  session_start();
-    //include_once 'header.php';
-
-  if (isset($_SESSION['userId'])) {
-    echo "Cool";
-    echo $_SESSION['userId'];
-  } else {
-       echo "Not cool";
-  }
+    include_once 'header.php';
 ?>
 
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="0.css">
 
-</head>
 <body>
 <!-- partial:index.partial.html -->
 <form action="Includes/test.inc.php" method="post">
@@ -48,6 +33,8 @@
       </div>
     </div>
 
+    <hr>
+
     <p style="text-align: center">Nem lehet megzavarni mások igényeivel</p>      
     <div class="rb">
       <div class="rb-tab">
@@ -71,7 +58,9 @@
       </div>
     </div>
 
-    <p style="text-align: center">RGyakran rontok el dolgokat</p>      
+    <hr>
+
+    <p style="text-align: center">Gyakran rontok el dolgokat</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q33" name="q33" value="1"></td>
@@ -93,6 +82,8 @@
         <div class="pull-right">Igaz</div>
       </div>
     </div>
+
+    <hr>
 
     <p style="text-align: center">Keveset árulok el magamról</p>      
     <div class="rb">
@@ -117,6 +108,8 @@
       </div>
     </div>
 
+    <hr>
+
     <p style="text-align: center">Szeretek megoldani komplex problémákat </p>      
     <div class="rb">
       <div class="rb-tab">
@@ -139,6 +132,8 @@
         <div class="pull-right">Igaz</div>
       </div>
     </div>
+
+    <hr>
 
     <p style="text-align: center">Könnyen szabályozom az érzelmeimet</p>      
     <div class="rb">
@@ -163,6 +158,8 @@
       </div>
     </div>
 
+    <hr>
+
     <p style="text-align: center">Kihasználok másokat a saját céljaimra</p>      
     <div class="rb">
       <div class="rb-tab">
@@ -185,6 +182,8 @@
         <div class="pull-right">Igaz</div>
       </div>
     </div>
+
+    <hr>
 
     <p style="text-align: center">Időbeosztás szerint élek</p>      
     <div class="rb">
@@ -209,6 +208,8 @@
       </div>
     </div>
 
+    <hr>
+
     <p style="text-align: center">Tudom, hogy kell elvarázsolni az embereket</p>      
     <div class="rb">
       <div class="rb-tab">
@@ -231,6 +232,8 @@
         <div class="pull-right">Igaz</div>
       </div>
     </div>
+
+    <hr>
 
     <p style="text-align: center">Nagyon el tudok merülni a zenében</p>      
     <div class="rb">
@@ -255,10 +258,14 @@
       </div>
     </div>
 
-    <div class="button-box">
-      <button class="button trigger" type="submit" name="submit4">Tovább</button>
-    </div>
+    <hr>
 
+    <p style="text-align: center;">Az összes kérdésre válaszoljon</p>
+    <div class="button-box">
+      <button class="button trigger" type="submit" name="submit4" disabled id="enable-on-two">Tovább</button>
+    </div>
+    
+    <script LANGUAGE="JavaScript" src="Js/boxes.js"></script> 
  
   </div>
 

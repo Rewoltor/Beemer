@@ -1,10 +1,8 @@
 <?php 
 
-
 session_start();
 
 $clientsId = $_SESSION["clientsId"];
-
 
 // Load the database configuration file 
 include_once '../../dbh.inc.php';
@@ -18,10 +16,8 @@ $query = $conn->query(
    WHERE u.clientsId = $clientsId;
     "); 
 
-
-
 if(empty($query)){ 
-    header("location: ../client_page.php?error=error");
+    header("location: ../client_page.php?error=empty");
     exit();
 }else{
     $delimiter = ","; 
@@ -31,7 +27,7 @@ if(empty($query)){
     $f = fopen('php://memory', 'w'); 
 
     // Set column headers 
-    $fields = array('userid', 'Vezeteknev', 'Kitoltes kezdete', 'Email', 'Nyitottsag', 'Lelkiismeret', 'Extroverzio', 'Alkalmazkodas', 'Stressz', 'Kognitiv'); 
+    $fields = array('userid', 'Név', 'Kitoltes kezdete', 'Email', 'Nyitottsag', 'Lelkiismeret', 'Extroverzio', 'Alkalmazkodas', 'Stressz', 'Kognitiv'); 
     fputcsv($f, $fields, $delimiter); 
     //userId, clientsId, usersVez_nev, registerTime, usersEmail, t_openness, t_conscientiousness, t_extroversion, t_agreeableness, t_neuroticism, cognitrive
     // Output each row of the data, format line as csv and write to file pointer 

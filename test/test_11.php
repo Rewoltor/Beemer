@@ -7,12 +7,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1">  -->
   <!--<link rel="stylesheet" type="text/css" href="cogn/style.css"> -->
   <link rel="stylesheet" type="text/css" href="cogn/test11.css"> 
   <script type="text/javascript" src="cogn/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="cogn/quiz_simply.js"></script>
-  <script src="Js/count.js"></script>    <!--clock for the time limit-->     
+  <script src="Js/count.js"></script>    <!--clock for the time limit-->  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">   
        
 </head>
 

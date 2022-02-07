@@ -1,13 +1,14 @@
 <?php
 
 session_start();
+$content = $_POST["content"];
 
 require_once('PHPMailer/PHPMailerAutoload.php');
 $clientsId = $_SESSION["clientsId"];
 $email = $_POST["email"];
 $html2='gyerre velem te gyerek';
-$sub = 'sdfl';
-$html = "https://beemer2.herokuapp.com/Regist/register.php?email=$email&clientsId=$clientsId";
+$sub = $_POST["subject"];
+$html = $content. "https://beemer2.herokuapp.com/Regist/register.php?email=$email&clientsId=$clientsId";
 
 echo smtp_mailer($email,$sub,$html);
 function smtp_mailer($to,$subject, $msg){
@@ -37,7 +38,7 @@ function smtp_mailer($to,$subject, $msg){
 		exit();
 	}else{
 		//return 'Sent';
-		header("location: ../client_page.php?siker"); //post register path
+		header("location: ../email.php?siker"); //post register path
 		exit();
 	}
 }

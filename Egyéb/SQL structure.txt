@@ -311,3 +311,26 @@ CREATE TABLE test111 (
     userId varchar(128) NOT NULL,
     co1 varchar(128) NOT NULL
 );
+
+
+
+
+
+
+TRUNCATE feedback;
+TRUNCATE results;
+TRUNCATE test1;
+TRUNCATE test2;
+TRUNCATE test3;
+TRUNCATE test4;
+TRUNCATE test5;
+TRUNCATE test6;
+TRUNCATE test7;
+TRUNCATE test8;
+TRUNCATE test9;
+TRUNCATE test10;
+TRUNCATE test11;
+TRUNCATE test_text;
+TRUNCATE t_results;
+TRUNCATE users;
+TRUNCATE users1;
