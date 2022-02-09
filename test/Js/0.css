@@ -35,6 +35,12 @@ input[type=radio] {
   width: 100%;
   height: 1.7em;
 }
+
+.p-text {
+  text-align: center;
+  color:#FFFFFF;
+}
+
 .pull-left {
   float:left;
   padding-left:50px;

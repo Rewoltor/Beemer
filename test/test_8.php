@@ -10,7 +10,7 @@
   <div class="rb-box">
 
     <!-- Radio Button Module -->
-    <p style="text-align: center">Nehéz zavarba hozni</p>      
+    <p class="p-text">Nehéz zavarba hozni</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q71" name="q71" value="1"></td>
@@ -35,7 +35,7 @@
 
     <hr>
 
-    <p style="text-align: center">Érdeklődöm mások élete iránt</p>      
+    <p class="p-text">Érdeklődöm mások élete iránt</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q72" name="q72" value="1"></td>
@@ -60,7 +60,7 @@
 
     <hr>
 
-    <p style="text-align: center">Mindig tudom, hogy mit csinálok</p>      
+    <p class="p-text">Mindig tudom, hogy mit csinálok</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q73" name="q73" value="1"></td>
@@ -85,7 +85,7 @@
 
     <hr>
 
-    <p style="text-align: center">Kimutatom, ha boldog vagyok</p>      
+    <p class="p-text">Kimutatom, ha boldog vagyok</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q74" name="q74" value="1"></td>
@@ -110,7 +110,7 @@
 
     <hr>
 
-    <p style="text-align: center">Gyors a gondolkodásom</p>      
+    <p class="p-text">Gyors a gondolkodásom</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q75" name="q75" value="1"></td>
@@ -135,7 +135,7 @@
 
     <hr>
 
-    <p style="text-align: center">Nehezen lehet felidegesíteni</p>      
+    <p class="p-text">Nehezen lehet felidegesíteni</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q76" name="q76" value="1"></td>
@@ -160,7 +160,7 @@
 
     <hr>
 
-    <p style="text-align: center">Keresem a konfliktust</p>      
+    <p class="p-text">Keresem a konfliktust</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q77" name="q77" value="1"></td>
@@ -185,7 +185,7 @@
 
     <hr>
 
-    <p style="text-align: center">Nem szeretem a rutinszerű dolgokat</p>      
+    <p class="p-text">Nem szeretem a rutinszerű dolgokat</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q78" name="q78" value="1"></td>
@@ -210,7 +210,7 @@
 
     <hr>
 
-    <p style="text-align: center">A véleményemet megtartom magamnak</p>      
+    <p class="p-text">A véleményemet megtartom magamnak</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q79" name="q79" value="1"></td>
@@ -235,7 +235,7 @@
 
     <hr>
 
-    <p style="text-align: center">Ritkán veszem el a gondolataimban</p>      
+    <p class="p-text">Ritkán veszem el a gondolataimban</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q80" name="q80" value="1"></td>

@@ -10,7 +10,7 @@
   <div class="rb-box">
 
     <!-- Radio Button Module -->
-    <p style="text-align: center">Könnyen érzem magam veszélyben</p>      
+    <p class="p-text">Könnyen érzem magam veszélyben</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q31" name="q31" value="1"></td>
@@ -35,7 +35,7 @@
 
     <hr>
 
-    <p style="text-align: center">Nem lehet megzavarni mások igényeivel</p>      
+    <p class="p-text">Nem lehet megzavarni mások igényeivel</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q32" name="q32" value="1"></td>
@@ -60,7 +60,7 @@
 
     <hr>
 
-    <p style="text-align: center">Gyakran rontok el dolgokat</p>      
+    <p class="p-text">Gyakran rontok el dolgokat</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q33" name="q33" value="1"></td>
@@ -85,7 +85,7 @@
 
     <hr>
 
-    <p style="text-align: center">Keveset árulok el magamról</p>      
+    <p class="p-text">Keveset árulok el magamról</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q34" name="q34" value="1"></td>
@@ -110,7 +110,7 @@
 
     <hr>
 
-    <p style="text-align: center">Szeretek megoldani komplex problémákat </p>      
+    <p class="p-text">Szeretek megoldani komplex problémákat </p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q35" name="q35" value="1"></td>
@@ -135,7 +135,7 @@
 
     <hr>
 
-    <p style="text-align: center">Könnyen szabályozom az érzelmeimet</p>      
+    <p class="p-text">Könnyen szabályozom az érzelmeimet</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q36" name="q36" value="1"></td>
@@ -160,7 +160,7 @@
 
     <hr>
 
-    <p style="text-align: center">Kihasználok másokat a saját céljaimra</p>      
+    <p class="p-text">Kihasználok másokat a saját céljaimra</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q37" name="q37" value="1"></td>
@@ -185,7 +185,7 @@
 
     <hr>
 
-    <p style="text-align: center">Időbeosztás szerint élek</p>      
+    <p class="p-text">Időbeosztás szerint élek</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q38" name="q38" value="1"></td>
@@ -210,7 +210,7 @@
 
     <hr>
 
-    <p style="text-align: center">Tudom, hogy kell elvarázsolni az embereket</p>      
+    <p class="p-text">Tudom, hogy kell elvarázsolni az embereket</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q39" name="q39" value="1"></td>
@@ -235,7 +235,7 @@
 
     <hr>
 
-    <p style="text-align: center">Nagyon el tudok merülni a zenében</p>      
+    <p class="p-text">Nagyon el tudok merülni a zenében</p>      
     <div class="rb">
       <div class="rb-tab">
         <td><input type="radio" id="q40" name="q40" value="1"></td>

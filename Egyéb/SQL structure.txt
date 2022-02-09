@@ -233,6 +233,29 @@ CREATE TABLE t_results (
     clientsId varchar(128) NOT NULL
 );
 
+
+CREATE TABLE t_results (
+    userId varchar(128) NOT NULL,
+    t_openness varchar(128) NOT NULL,
+    t_conscientiousness varchar(128) NOT NULL,
+    t_extroversion varchar(128) NOT NULL,
+    t_agreeableness varchar(128) NOT NULL,
+    t_neuroticism varchar(128) NOT NULL,
+    cognitrive varchar(128) NOT NULL,
+    industriousness varchar(128) NOT NULL,
+    orderliness varchar(128) NOT NULL,
+    compassion varchar(128) NOT NULL,
+    politeness varchar(128) NOT NULL,
+    openness varchar(128) NOT NULL,
+    intellect varchar(128) NOT NULL,
+    assertiveness varchar(128) NOT NULL,
+    enthusiasm varchar(128) NOT NULL,
+    volatility varchar(128) NOT NULL,
+    withdrawal varchar(128) NOT NULL,
+    clientsId varchar(128) NOT NULL
+);
+
+
 CREATE TABLE results (
     userId varchar(128) NOT NULL,
     cognitrive varchar(128) NOT NULL,
