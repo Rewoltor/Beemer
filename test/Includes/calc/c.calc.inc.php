@@ -165,3 +165,10 @@ if (isset($_SESSION['userId'])) {
 
 $addition = 46;
 $c_rest = $n_1 - $n_2 - $n_3 + $n_4 - $n_5 + $n_6 - $n_7 + $n_8 + $n_9 - $n_10 - $n_11 + $n_12 + $n_13 - $n_14 + $n_15 - $n_16 - $n_17 - $n_18 - $n_19 + $n_20 + $addition;
+
+$o = 20;
+$orderliness = $n_4 - $n_2 + $n_6 + $n_8 - $n_10 + $n_12 - $n_14 - $n_16 - $n_18 + $n_20 + $o;
+
+$i = 26;
+$industriousness = $n_1 - $n_3  - $n_5 - $n_7 + $n_9 - $n_11 + $n_13 + $n_15 - $n_17 - $n_19 + $i;
+

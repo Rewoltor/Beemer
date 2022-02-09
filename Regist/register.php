@@ -72,8 +72,6 @@
     
 
 
-
-
             <div class="register-button">
                 <input type="submit" name="submit" class="inputButton"  id="submit" value="Indítás" disabled="disabled"  /> <!-- a "name" számít a .php-nál   -->
                 <script LANGUAGE="JavaScript" src="dist/box.js"></script> <!-- .js for, if box is not checked not clickable -->
