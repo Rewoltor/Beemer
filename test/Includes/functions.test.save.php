@@ -9,7 +9,7 @@ function Result($conn, $userId, $o_rest, $c_rest, $e_rest, $a_rest, $n_rest, $co
         header("location: ../test_final.php?error=stmtfailed11");
         exit();
     }
-        
+
     //input to the database
     mysqli_stmt_bind_param($stmt, "ssssssssssssssssss", $userId, $o_rest, $c_rest, $e_rest, $a_rest, $n_rest, $co_rest, $industriousness, $orderliness, $compassion, $politeness, $openness, $intellect, $assertiveness, $enthusiasm, $volatility, $withdrawal, $clientsId);
     mysqli_stmt_execute($stmt);
