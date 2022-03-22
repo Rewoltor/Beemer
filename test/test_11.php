@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="a.css"> 
+    <link rel="stylesheet" type="text/css" href="cogn/test11.css"> 
     <script type="text/javascript" src="cogn/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="cogn/quiz_simply.js"></script>
     <script src="Js/count.js"></script>    <!--clock for the time limit-->  
@@ -40,90 +40,50 @@
 
 
 
-        <div class="questionForm" id="co1" data-question="1">
-
-            <td>1/10
-        
-            <div class="main-image-div">
-                <img src="img/1.png" class="main-image"></img>
-            </div>
-            <div>
-                <label>
-                    <input type="radio" name="test" id="co1" name="co1" value="a">
-                    <img class="img" src="img/1.1.png">
-                </label>
-                <label>
-                    <input type="radio" name="test" id="co1" name="co1" value="b">
-                    <img class="img" src="img/1.2.png">
-                </label>
-                <label>
-                    <input type="radio" name="test" id="co1" name="co1" value="c">
-                    <img class="img" src="img/1.1.png">
-                </label>
-            </div>
-            <div>
-                <label>
-                    <input type="radio" name="test" id="co1" name="co1" value="d">
-                    <img class="img" src="img/1.2.png">
-                </label>
-                <label>
-                    <input type="radio" name="test" id="co1" name="co1" value="e">
-                    <img class="img" src="img/1.1.png">
-                </label>
-                <label> 
-                    <input type="radio" name="test" id="co1" name="co1" value="f">
-                    <img class="img" src="img/1.2.png">
-                </label>
-                <label>
-                    <input type="radio" name="test" id="co1" name="co1" value="g">
-                    <img class="img" src="img/1.1.png">
-                </label>
-                <label> 
-                    <input type="radio" name="test" id="co1" name="co1" value="h">
-                    <img class="img" src="img/1.2.png">
-                    <input type="radio" name="test" id="co1" name="co1" value="0" checked="checked" style="opacity: 0;">
-                </label>
-            </div>
-        
-            <button name="submit" id="submit" class="submit-fort">Következő</button>
-        </div>
-
-
 
         <div class="questionForm" id="co1" data-question="1">
             <td>1/10
             <div class="main-image-div">
                 <img src="img/9.png" class="main-image"></img>
             </div>
-            <div>
-                <label>
-                    <input type="radio" class="test" id="co1" name="co1" value="a">
-                    <img name="co1" class="img" src="img/9.1.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co1" name="co1" value="b">
-                    <img name="co1" class="img" src="img/9.2.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co1" name="co1" value="c">
-                    <img name="co1" class="img" src="img/9.3.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co1" name="co1" value="d">
-                    <img name="co1" class="img" src="img/9.4.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co1" name="co1" value="e">
-                    <img name="co1" class="img" src="img/9.5.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co1" name="co1" value="f">
-                    <img name="co1" class="img" src="img/9.6.png" />
-                    <input type="radio" class="img" id="co1" name="co1" value="0" checked="checked" style="opacity: 0;">
-                </label>
+            <div class="answer6">
+                <div class="choices1">
+                    <label>
+                        <input type="radio" class="test" id="co1" name="co1" value="a">
+                        <img name="co1" class="img" src="img/9.1.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co1" name="co1" value="b">
+                        <img name="co1" class="img" src="img/9.2.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co1" name="co1" value="c">
+                        <img name="co1" class="img" src="img/9.3.png" />
+                    </label>
+                </div>
+                <div class="choices1">
+                    <label>
+                        <input type="radio" class="test" id="co1" name="co1" value="d">
+                        <img name="co1" class="img" src="img/9.4.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co1" name="co1" value="e">
+                        <img name="co1" class="img" src="img/9.5.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co1" name="co1" value="f">
+                        <img name="co1" class="img" src="img/9.6.png" />
+                        <input type="radio" class="img" id="co1" name="co1" value="0" checked="checked" style="opacity: 0;">
+                    </label>
+                </div>
             </div>
-            <button name="submita" id="submita">Előző</button>
-            <button name="submit" id="submit">Következő</button>
+
+            <span class="button">
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+
         </div>
         
 
@@ -133,35 +93,45 @@
             <div class="main-image-div">
                 <img src="img/6.png" class="main-image"></img>
             </div>
-            <div>
-                <label>
-                    <input type="radio" class="test" id="co2" name="co2" value="a">
-                    <img name="co2" class="img" src="img/6.1.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co2" name="co2" value="b">
-                    <img name="co2" class="img" src="img/6.2.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co2" name="co2" value="c">
-                    <img name="co2" class="img" src="img/6.3.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co2" name="co2" value="d">
-                    <img name="co2" class="img" src="img/6.4.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co2" name="co2" value="e">
-                    <img name="co2" class="img" src="img/6.5.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co2" name="co2" value="f">
-                    <img name="co2" class="img" src="img/6.6.png" />
-                    <input type="radio" class="test" id="co2" name="co2" value="0" checked="checked" style="opacity: 0;">
-                </label>
+            <div class="answer6">
+                <div class="choices1">
+                    <label>
+                        <input type="radio" class="test" id="co2" name="co2" value="a">
+                        <img name="co2" class="img" src="img/6.1.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co2" name="co2" value="b">
+                        <img name="co2" class="img" src="img/6.2.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co2" name="co2" value="c">
+                        <img name="co2" class="img" src="img/6.3.png" />
+                    </label>
+                </div>
+                <div class="choices1">
+                    <label>
+                        <input type="radio" class="test" id="co2" name="co2" value="d">
+                        <img name="co2" class="img" src="img/6.4.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co2" name="co2" value="e">
+                        <img name="co2" class="img" src="img/6.5.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co2" name="co2" value="f">
+                        <img name="co2" class="img" src="img/6.6.png" />
+                        <input type="radio" class="test" id="co2" name="co2" value="0" checked="checked" style="opacity: 0;">
+                    </label>
+                </div>
             </div>
-            <button name="submita" id="submita">Előző</button>
-            <button name="submit" id="submit">Következő</button>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
         </div>
         
 
@@ -171,72 +141,91 @@
             <div class="main-image-div">
                 <img src="img/7.png" class="main-image"></img>
             </div>
-            <div>
-                <label>
-                    <input type="radio" class="test" id="co3" name="co3" value="a">
-                    <img name="co3" class="img" src="img/7.1.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co3" name="co3" value="b">
-                    <img name="co3" class="img" src="img/7.2.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co3" name="co3" value="c">
-                    <img name="co3" class="img" src="img/7.3.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co3" name="co3" value="d">
-                    <img name="co3" class="img" src="img/7.4.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co3" name="co3" value="e">
-                    <img name="co3" class="img" src="img/7.5.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co3" name="co3" value="f">
-                    <img name="co3" class="img" src="img/7.6.png" />
-                    <input type="radio" class="test" id="co3" name="co3" value="0" checked="checked" style="opacity: 0;">
-                </label>
-                <script LANGUAGE="JavaScript" src="Js/box.js"></script> 
+            <div class="answer6">
+                <div class="choices1">
+                    <label>
+                        <input type="radio" class="test" id="co3" name="co3" value="a">
+                        <img name="co3" class="img" src="img/7.1.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co3" name="co3" value="b">
+                        <img name="co3" class="img" src="img/7.2.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co3" name="co3" value="c">
+                        <img name="co3" class="img" src="img/7.3.png" />
+                    </label>
+                </div>
+                <div class="choices1">
+                    <label>
+                        <input type="radio" class="test" id="co3" name="co3" value="d">
+                        <img name="co3" class="img" src="img/7.4.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co3" name="co3" value="e">
+                        <img name="co3" class="img" src="img/7.5.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co3" name="co3" value="f">
+                        <img name="co3" class="img" src="img/7.6.png" />
+                        <input type="radio" class="test" id="co3" name="co3" value="0" checked="checked" style="opacity: 0;">
+                    </label>
+                </div>
             </div>
-            <button name="submita" id="submita">Előző</button>
-            <button name="submit" id="submit">Következő</button>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
         </div>
         
         <div class="questionForm" id="co4" data-question="4">
             <td>4/10
-            <div class="main-image-div">
-                <img src="img/1.png" class="main-image"></img>
+            <div class="answer6">
+                <div class="main-image-div">
+                    <img src="img/1.png" class="main-image"></img>
+                </div>
+                <div class="choices1">
+                    <label>
+                        <input type="radio" class="test" id="co4" name="co4" value="a">
+                        <img name="co4" class="img" src="img/1.1.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co4" name="co4" value="b">
+                        <img name="co4" class="img" src="img/1.2.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co4" name="co4" value="c">
+                        <img name="co4" class="img" src="img/1.3.png" />
+                    </label>
+                </div>
+                <div class="choices1">
+                    <label>
+                        <input type="radio" class="test" id="co4" name="co4" value="d">
+                        <img name="co4" class="img" src="img/1.4.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co4" name="co4" value="e">
+                        <img name="co4" class="img" src="img/1.5.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co4" name="co4" value="f">
+                        <img name="co4" class="img" src="img/1.6.png" />
+                        <input type="radio" class="test" id="co4" name="co4" value="0" checked="checked" style="opacity: 0;">
+                    </label>
+                </div>
             </div>
-            <div>
-                <label>
-                    <input type="radio" class="test" id="co4" name="co4" value="a">
-                    <img name="co4" class="img" src="img/1.1.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co4" name="co4" value="b">
-                    <img name="co4" class="img" src="img/1.2.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co4" name="co4" value="c">
-                    <img name="co4" class="img" src="img/1.3.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co4" name="co4" value="d">
-                    <img name="co4" class="img" src="img/1.4.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co4" name="co4" value="e">
-                    <img name="co4" class="img" src="img/1.5.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co4" name="co4" value="f">
-                    <img name="co4" class="img" src="img/1.6.png" />
-                    <input type="radio" class="test" id="co4" name="co4" value="0" checked="checked" style="opacity: 0;">
-                </label>
-            </div>
-            <button name="submita" id="submita">Előző</button>
-            <button name="submit" id="submit">Következő</button>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
         </div>
         
         <div class="questionForm" id="co5" data-question="5">
@@ -244,35 +233,45 @@
             <div class="main-image-div">
                 <img src="img/10.png" class="main-image"></img>
             </div>
-            <div>
-                <label>
-                    <input type="radio" class="test" id="co5" name="co5" value="a">
-                    <img name="co5" class="img" src="img/10.1.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co5" name="co5" value="b">
-                    <img name="co5" class="img" src="img/10.2.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co5" name="co5" value="c">
-                    <img name="co5" class="img" src="img/10.3.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co5" name="co5" value="d">
-                    <img name="co5" class="img" src="img/10.4.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co5" name="co5" value="e">
-                    <img name="co5" class="img" src="img/10.5.png" />
-                </label>
-                <label>
-                    <input type="radio" class="test" id="co5" name="co5" value="f">
-                    <img name="co5" class="img" src="img/10.6.png" />
-                    <input type="radio" class="test" id="co5" name="co5" value="0" checked="checked" style="opacity: 0;">
-                </label>
+            <div class="answer6">
+                <div class="choices1">
+                    <label>
+                        <input type="radio" class="test" id="co5" name="co5" value="a">
+                        <img name="co5" class="img" src="img/10.1.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co5" name="co5" value="b">
+                        <img name="co5" class="img" src="img/10.2.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co5" name="co5" value="c">
+                        <img name="co5" class="img" src="img/10.3.png" />
+                    </label>
+                </div>
+                <div class="choices1">
+                    <label>
+                        <input type="radio" class="test" id="co5" name="co5" value="d">
+                        <img name="co5" class="img" src="img/10.4.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co5" name="co5" value="e">
+                        <img name="co5" class="img" src="img/10.5.png" />
+                    </label>
+                    <label>
+                        <input type="radio" class="test" id="co5" name="co5" value="f">
+                        <img name="co5" class="img" src="img/10.6.png" />
+                        <input type="radio" class="test" id="co5" name="co5" value="0" checked="checked" style="opacity: 0;">
+                    </label>
+                </div>
             </div>
-            <button name="submita" id="submita">Előző</button>
-            <button name="submit" id="submit">Következő</button>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
         </div>
         
         <div class="questionForm" id="co6" data-question="6">
@@ -317,8 +316,14 @@
                     <input type="radio" class="test" id="co6" name="co6" value="0" checked="checked" style="opacity: 0;">
                 </label>
             </div>
-            <button name="submita" id="submita">Előző</button>
-            <button name="submit" id="submit">Következő</button>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
         </div>
         
         <div class="questionForm" id="co7" data-question="7">
@@ -363,8 +368,14 @@
                     <input type="radio" class="test" id="co7" name="co7" value="0" checked="checked" style="opacity: 0;">
                 </label>
             </div>
-            <button name="submita" id="submita">Előző</button>
-            <button name="submit" id="submit">Következő</button>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
         </div>
 
         <div class="questionForm" id="co8" data-question="8">
@@ -409,8 +420,14 @@
                     <input type="radio" class="test" id="co8" name="co8" value="0" checked="checked" style="opacity: 0;">
                 </label>
             </div>
-            <button name="submita" id="submita">Előző</button>
-            <button name="submit" id="submit">Következő</button>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
         </div>
         
         <div class="questionForm" id="co9" data-question="9">
@@ -455,8 +472,14 @@
                     <input type="radio" class="test" id="co9" name="co9" value="0" checked="checked" style="opacity: 0;">
                 </label>
             </div>
-            <button name="submita" id="submita">Előző</button>
-            <button name="submit" id="submit">Következő</button>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
         </div>
         
         <div class="questionForm" id="co10" data-question="10">
