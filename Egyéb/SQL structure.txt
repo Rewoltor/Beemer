@@ -1,4 +1,4 @@
-CREATE TABLE clients (
+ CREATE TABLE clients (
 	clientsId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
     clientsEmail varchar(128) NOT NULL,
     clientsVez_nev varchar(128) NOT NULL,
@@ -356,4 +356,3 @@ TRUNCATE test11;
 TRUNCATE test_text;
 TRUNCATE t_results;
 TRUNCATE users;
-TRUNCATE users1;

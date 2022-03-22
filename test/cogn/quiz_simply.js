@@ -25,6 +25,19 @@ $(document).ready(function(){
     process(''+current+'');
     return false;
     });
+
+    $('.questionForm #submita').click(function(){
+      //Get data attributes
+      current = $(this).parents('div:first').data('question');
+      next = $(this).parents('div:first').data('question')-1;
+      //Hide all questions
+      $('.questionForm').hide();
+      //Show next questions
+      $('#co'+next+'').fadeIn(300);
+      process(''+current+'');
+      return false;
+      });
+
 });
 
 
