@@ -46,7 +46,7 @@
                     <a href="Regist/register.php" class="btn btn-primary mr-3 font-weight-bold">
                         Teszt kitöltése
                     </a>
-                    <a href="Regist_client/register.php">
+                    <a href="Client/register.php">
                         Cégeknek
                     </a>
                 </div>
