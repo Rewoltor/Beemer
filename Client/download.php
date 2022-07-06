@@ -60,7 +60,7 @@ $clientsId = $_SESSION["clientsId"];
             ?>
             <!--  data points from php  -->
             <tr>
-                <!--<td><?php /* echo '<a href="big_report.php?id='.$row['userId'].'">Elemzés</a>'; */ ?></td> -->   <!--  takes users to specific personality accessment  -->
+                <td><?php  echo '<a href="big_report.php?id='.$row['userId'].'">Elemzés</a>';  ?></td>   <!--  takes users to specific personality accessment page  -->
                 <td><?php echo $row['userId']; ?></td>
                 <td><?php echo $row['usersVez_nev']; ?></td>
                 <td><?php echo $row['registerTime']; ?></td>

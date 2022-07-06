@@ -34,11 +34,11 @@ function smtp_mailer($to,$subject, $msg){
 	));
 	if(!$mail->Send()){
 		//echo $mail->ErrorInfo;
-		header("location: ../client_page.php?nono"); //post register path
+		header("location: ../client_page.php?error=error"); //post register path
 		exit();
 	}else{
 		//return 'Sent';
-		header("location: ../email.php?siker"); //post register path
+		header("location: ../email.php?msg=success"); //post register path
 		exit();
 	}
 }
