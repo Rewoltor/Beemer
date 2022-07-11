@@ -30,7 +30,7 @@ while ($row = mysqli_fetch_assoc($result))
     }
     //2
     $co_2 = $row['co2'];
-    if($co_2 == "e"){
+    if($co_2 == "d"){
         $co_a_2 = "1";
     }else{
         $co_a_2 = "0";
@@ -51,7 +51,7 @@ while ($row = mysqli_fetch_assoc($result))
     }
     //5
     $co_5 = $row['co5'];
-    if($co_5 == "a"){
+    if($co_5 == "b"){
         $co_a_5 = "1";
     }else{
         $co_a_5 = "0";
@@ -79,7 +79,7 @@ while ($row = mysqli_fetch_assoc($result))
     }
     //9
     $co_9 = $row['co9'];
-    if($co_9 == "d"){
+    if($co_9 == "c"){
         $co_a_9 = "1";
     }else{
         $co_a_9 = "0";
