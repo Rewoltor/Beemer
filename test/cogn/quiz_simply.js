@@ -1,4 +1,4 @@
-var total = 10; //total number of questions
+var total = 20; //total number of questions
 
 $(document).ready(function(){
   //hide all questions

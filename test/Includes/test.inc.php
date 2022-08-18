@@ -230,12 +230,22 @@ if (isset($_POST["submit1"])) {
     $co8 = $_POST["co8"];
     $co9 = $_POST["co9"];
     $co10 = $_POST["co10"];
+    $co11 = $_POST["co11"];
+    $co12 = $_POST["co12"];
+    $co13 = $_POST["co13"];
+    $co14 = $_POST["co14"];
+    $co15 = $_POST["co15"];
+    $co16 = $_POST["co16"];
+    $co17 = $_POST["co17"];
+    $co18 = $_POST["co18"];
+    $co19 = $_POST["co19"];
+    $co20 = $_POST["co20"];
 
 
     require_once '../../dbh.inc.php';
     require_once 'functions.test.inc.php';
 
-    createTest11($conn, $userId, $co1, $co2, $co3, $co4, $co5, $co6, $co7, $co8, $co9, $co10);
+    createTest11($conn, $userId, $co1, $co2, $co3, $co4, $co5, $co6, $co7, $co8, $co9, $co10, $co11, $co12, $co13, $co14, $co15, $co16, $co17, $co18, $co19, $co20);
 
 }else {
     header("location: ../test_10.php?malinputman");

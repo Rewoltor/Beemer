@@ -41,7 +41,7 @@
 
 
 
-        <div class="questionForm" id="co1" data-question="1">
+    <div class="questionForm" id="co1" data-question="1">
             <td>1/10
             <div class="main-image-div">
                 <img src="img/9.png" class="main-image"></img>
@@ -524,7 +524,544 @@
                     <input type="radio" class="test" id="co10" name="co10" value="0" checked="checked" style="opacity: 0;">
                 </label>
             </div>
-            <button name="submit11" id="submit" class="submit11">Következő</button>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+        </div>
+        
+
+
+
+        <div class="questionForm" id="co11" data-question="11">
+            <td>11/20
+            <div class="main-image-div">
+                <img src="img/11.png" class="main-image"></img>
+            </div>
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co11" name="co11" value="a">
+                    <img name="co11" class="img" src="img/11.1.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co11" name="co11" value="b">
+                    <img name="co11" class="img" src="img/11.2.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co11" name="co11" value="c">
+                    <img name="co11" class="img" src="img/11.3.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co11" name="co11" value="d">
+                    <img name="co11" class="img" src="img/11.4.png" />
+                </label>
+            </div> 
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co11" name="co11" value="e">
+                    <img name="co11" class="img" src="img/11.5.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co11" name="co11" value="f">
+                    <img name="co11" class="img" src="img/11.6.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co11" name="co11" value="g">
+                    <img name="co11" class="img" src="img/11.7.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co11" name="co11" value="h">
+                    <img name="co11" class="img" src="img/11.8.png" />
+                    <input type="radio" class="test" id="co11" name="co11" value="0" checked="checked" style="opacity: 0;">
+                </label>
+            </div>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+        </div>
+        
+
+
+        <div class="questionForm" id="co12" data-question="12">
+            <td>12/20
+            <div class="main-image-div">
+                <img src="img/12.png" class="main-image"></img>
+            </div>
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co12" name="co12" value="a">
+                    <img name="co12" class="img" src="img/12.1.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co12" name="co12" value="b">
+                    <img name="co12" class="img" src="img/12.2.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co12" name="co12" value="c">
+                    <img name="co12" class="img" src="img/12.3.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co12" name="co12" value="d">
+                    <img name="co12" class="img" src="img/12.4.png" />
+                </label>
+            </div> 
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co12" name="co12" value="e">
+                    <img name="co12" class="img" src="img/12.5.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co12" name="co12" value="f">
+                    <img name="co12" class="img" src="img/12.6.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co12" name="co12" value="g">
+                    <img name="co12" class="img" src="img/12.7.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co12" name="co12" value="h">
+                    <img name="co12" class="img" src="img/12.8.png" />
+                    <input type="radio" class="test" id="co12" name="co12" value="0" checked="checked" style="opacity: 0;">
+                </label>
+            </div>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+        </div>
+
+        
+        <div class="questionForm" id="co13" data-question="13">
+            <td>13/20
+            <div class="main-image-div">
+                <img src="img/13.png" class="main-image"></img>
+            </div>
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co13" name="co13" value="a">
+                    <img name="co13" class="img" src="img/13.1.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co13" name="co13" value="b">
+                    <img name="co13" class="img" src="img/13.2.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co13" name="co13" value="c">
+                    <img name="co13" class="img" src="img/13.3.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co13" name="co13" value="d">
+                    <img name="co13" class="img" src="img/13.4.png" />
+                </label>
+            </div> 
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co13" name="co13" value="e">
+                    <img name="co13" class="img" src="img/13.5.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co13" name="co13" value="f">
+                    <img name="co13" class="img" src="img/13.6.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co13" name="co13" value="g">
+                    <img name="co13" class="img" src="img/13.7.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co13" name="co13" value="h">
+                    <img name="co13" class="img" src="img/13.8.png" />
+                    <input type="radio" class="test" id="co13" name="co13" value="0" checked="checked" style="opacity: 0;">
+                </label>
+            </div>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+        </div>
+        
+        <div class="questionForm" id="co14" data-question="14">
+            <td>14/20
+            <div class="main-image-div">
+                <img src="img/14.png" class="main-image"></img>
+            </div>
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co14" name="co14" value="a">
+                    <img name="co14" class="img" src="img/14.1.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co14" name="co14" value="b">
+                    <img name="co14" class="img" src="img/14.2.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co14" name="co14" value="c">
+                    <img name="co14" class="img" src="img/14.3.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co14" name="co14" value="d">
+                    <img name="co14" class="img" src="img/14.4.png" />
+                </label>
+            </div> 
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co14" name="co14" value="e">
+                    <img name="co14" class="img" src="img/14.5.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co14" name="co14" value="f">
+                    <img name="co14" class="img" src="img/14.6.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co14" name="co14" value="g">
+                    <img name="co14" class="img" src="img/14.7.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co14" name="co14" value="h">
+                    <img name="co14" class="img" src="img/14.8.png" />
+                    <input type="radio" class="test" id="co14" name="co14" value="0" checked="checked" style="opacity: 0;">
+                </label>
+            </div>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+        </div>
+        
+        <div class="questionForm" id="co15" data-question="15">
+            <td>15/20
+            <div class="main-image-div">
+                <img src="img/15.png" class="main-image"></img>
+            </div>
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co15" name="co15" value="a">
+                    <img name="co15" class="img" src="img/15.1.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co15" name="co15" value="b">
+                    <img name="co15" class="img" src="img/15.2.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co15" name="co15" value="c">
+                    <img name="co15" class="img" src="img/15.3.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co15" name="co15" value="d">
+                    <img name="co15" class="img" src="img/15.4.png" />
+                </label>
+            </div> 
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co15" name="co15" value="e">
+                    <img name="co15" class="img" src="img/15.5.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co15" name="co15" value="f">
+                    <img name="co15" class="img" src="img/15.6.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co15" name="co15" value="g">
+                    <img name="co15" class="img" src="img/15.7.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co15" name="co15" value="h">
+                    <img name="co15" class="img" src="img/15.8.png" />
+                    <input type="radio" class="test" id="co15" name="co15" value="0" checked="checked" style="opacity: 0;">
+                </label>
+            </div>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+        </div>
+        
+        <div class="questionForm" id="co16" data-question="16">
+            <td>16/20
+            <div class="main-image-div">
+                <img src="img/16.png" class="main-image"></img>
+            </div>
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co16" name="co16" value="a">
+                    <img name="co16" class="img" src="img/16.1.png" />
+                </label>
+                <label>
+                    <input type="radio" class="img6" id="co16" name="co16" value="b">
+                    <img name="co16" class="img" src="img/16.2.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co16" name="co16" value="c">
+                    <img name="co16" class="img" src="img/16.3.png" />
+                </label>
+                <label>
+                    <input type="radio" class="img6" id="co16" name="co16" value="d">
+                    <img name="co16" class="img" src="img/16.4.png" />
+                </label>
+            </div> 
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co16" name="co16" value="e">
+                    <img name="co16" class="img" src="img/16.5.png" />
+                </label>
+                <label>
+                    <input type="radio" class="img6" id="co16" name="co16" value="f">
+                    <img name="co16" class="img" src="img/16.6.png" />
+                </label>
+                <label>
+                    <input type="radio" class="img6" id="co16" name="co16" value="g">
+                    <img name="co16" class="img" src="img/16.7.png" />
+                </label>
+                <label>
+                    <input type="radio" class="img6" id="co16" name="co16" value="h">
+                    <img name="co16" class="img" src="img/16.8.png" />
+                    <input type="radio" class="test" id="co16" name="co16" value="0" checked="checked" style="opacity: 0;">
+                </label>
+            </div>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+        </div>
+        
+        <div class="questionForm" id="co17" data-question="17">
+            <td>17/20
+            <div class="main-image-div">
+                <img src="img/17.png" class="main-image"></img>
+            </div>
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co17" name="co17" value="a">
+                    <img name="co17" class="img" src="img/17.1.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co17" name="co17" value="b">
+                    <img name="co17" class="img" src="img/17.2.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co17" name="co17" value="c">
+                    <img name="co17" class="img" src="img/17.3.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co17" name="co17" value="d">
+                    <img name="co17" class="img" src="img/17.4.png" />
+                </label>
+            </div> 
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co17" name="co17" value="e">
+                    <img name="co17" class="img" src="img/17.5.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co17" name="co17" value="f">
+                    <img name="co17" class="img" src="img/17.6.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co17" name="co17" value="g">
+                    <img name="co17" class="img" src="img/17.7.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co17" name="co17" value="h">
+                    <img name="co17" class="img" src="img/17.8.png" />
+                    <input type="radio" class="test" id="co17" name="co17" value="0" checked="checked" style="opacity: 0;">
+                </label>
+            </div>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+        </div>
+
+        <div class="questionForm" id="co18" data-question="18">
+            <td>18/20
+            <div class="main-image-div">
+                <img src="img/18.png" class="main-image"></img>
+            </div>
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co18" name="co18" value="a">
+                    <img name="co18" class="img" src="img/18.1.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co18" name="co18" value="b">
+                    <img name="co18" class="img" src="img/18.2.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co18" name="co18" value="c">
+                    <img name="co18" class="img" src="img/18.3.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co18" name="co18" value="d">
+                    <img name="co18" class="img" src="img/18.4.png" />
+                </label>
+            </div> 
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co18" name="co18" value="e">
+                    <img name="co18" class="img" src="img/18.5.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co18" name="co18" value="f">
+                    <img name="co18" class="img" src="img/18.6.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co18" name="co18" value="g">
+                    <img name="co18" class="img" src="img/18.7.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co18" name="co18" value="h">
+                    <img name="co18" class="img" src="img/18.8.png" />
+                    <input type="radio" class="test" id="co18" name="co18" value="0" checked="checked" style="opacity: 0;">
+                </label>
+            </div>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+        </div>
+        
+        <div class="questionForm" id="co19" data-question="19">
+            <td>19/20
+            <div class="main-image-div">
+                <img src="img/19.png" class="main-image"></img>
+            </div>
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co19" name="co19" value="a">
+                    <img name="co19" class="img" src="img/19.1.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co19" name="co19" value="b">
+                    <img name="co19" class="img" src="img/19.2.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co19" name="co19" value="c">
+                    <img name="co19" class="img" src="img/19.3.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co19" name="co19" value="d">
+                    <img name="co19" class="img" src="img/19.4.png" />
+                </label>
+            </div> 
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co19" name="co19" value="e">
+                    <img name="co19" class="img" src="img/19.5.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co19" name="co19" value="f">
+                    <img name="co19" class="img" src="img/19.6.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co19" name="co19" value="g">
+                    <img name="co19" class="img" src="img/19.7.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co19" name="co19" value="h">
+                    <img name="co19" class="img" src="img/19.8.png" />
+                    <input type="radio" class="test" id="co19" name="co19" value="0" checked="checked" style="opacity: 0;">
+                </label>
+            </div>
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit" id="submit" class="button b2">Következő</button>
+                </div>
+            </span>
+        </div>
+        
+        <div class="questionForm" id="co20" data-question="20">
+            <td>20/20
+            <div class="main-image-div">
+                <img src="img/20.png" class="main-image"></img>
+            </div>
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co20" name="co20" value="a">
+                    <img name="co20" class="img" src="img/20.1.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co20" name="co20" value="b">
+                    <img name="co20" class="img" src="img/20.2.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co20" name="co20" value="c">
+                    <img name="co20" class="img" src="img/20.3.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co20" name="co20" value="d">
+                    <img name="co20" class="img" src="img/20.4.png" />
+                </label>
+            </div> 
+            <div class="choices1">
+                <label>
+                    <input type="radio" class="test" id="co20" name="co20" value="e">
+                    <img name="co20" class="img" src="img/20.5.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co20" name="co20" value="f">
+                    <img name="co20" class="img" src="img/20.6.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co20" name="co20" value="g">
+                    <img name="co20" class="img" src="img/20.7.png" />
+                </label>
+                <label>
+                    <input type="radio" class="test" id="co20" name="co20" value="h">
+                    <img name="co20" class="img" src="img/20.8.png" />
+                    <input type="radio" class="test" id="co20" name="co20" value="0" checked="checked" style="opacity: 0;">
+                </label>
+            </div>
+            <!-- <button name="submit11" id="submit" class="submit11">Következő</button> -->
+
+            <span class="button">
+                <div id="submita">
+                    <button name="submita" id="submita" class="button b1">Előző</button>
+                </div>
+                <div id="submit">
+                    <button name="submit11" id="submit" class="submit11" >Következő</button>
+                </div>
+            </span>
+
+
         </div>
         
 

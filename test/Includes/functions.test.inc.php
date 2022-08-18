@@ -187,15 +187,15 @@ function createTest10($conn, $userId, $q91, $q92, $q93, $q94, $q95, $q96, $q97, 
 
 //    11   send inputs to sql server
 //Cognitive test save to DB
-function createTest11($conn, $userId, $co1, $co2, $co3, $co4, $co5, $co6, $co7, $co8, $co9, $co10) {
-    $sql = "INSERT INTO test11 (userId, co1, co2, co3, co4, co5, co6, co7, co8, co9, co10) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+function createTest11($conn, $userId, $co1, $co2, $co3, $co4, $co5, $co6, $co7, $co8, $co9, $co10, $co11, $co12, $co13, $co14, $co15, $co16, $co17, $co18, $co19, $co20) {
+    $sql = "INSERT INTO test11 (userId, co1, co2, co3, co4, co5, co6, co7, co8, co9, co10, co11, co12, co13, co14, co15, co16, co17, co18, co19, co20 ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../test_11.test.php?error=stmtfailed1"); //error massage of connection error, varivable or format inorrect
         exit();
     }
     
-    mysqli_stmt_bind_param($stmt, "sssssssssss", $userId, $co1, $co2, $co3, $co4, $co5, $co6, $co7, $co8, $co9, $co10);
+    mysqli_stmt_bind_param($stmt, "sssssssssssssssssssss", $userId, $co1, $co2, $co3, $co4, $co5, $co6, $co7, $co8, $co9, $co10, $co11, $co12, $co13, $co14, $co15, $co16, $co17, $co18, $co19, $co20);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
     session_start();

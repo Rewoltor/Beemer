@@ -12,7 +12,7 @@ $clientsId = $_SESSION["clientsId"];
     <!-- Bootstrap library -->
     <link rel="stylesheet" href="dist/bootstrap/bootstrap.min.css">
     
-    <!-- Stylesheet file -->
+    <!-- Stylesheet file --> 
     <link rel="stylesheet" href="dist/css/style.css">
 </head>
 
@@ -23,6 +23,9 @@ $clientsId = $_SESSION["clientsId"];
     <div class="row">
         <!-- Export link -->
         <div class="col-md-12 head">
+            <div class="float-left">
+                <a href="client_page.php" class="btn btn-success"><i class="dwn"></i> Vissza</a>
+            </div>
             <div class="float-right">
                 <a href="Includes/download.inc.php" class="btn btn-success"><i class="dwn"></i> Export</a>
             </div>
@@ -34,7 +37,7 @@ $clientsId = $_SESSION["clientsId"];
                 <tr>
                     <th>Azonosító</th>
                     <th>Név</th>
-                    <th>Regisztráció ideje</th>
+                    <th>Kitöltés ideje</th>
                     <th>Email</th>
                     <th>Nyitottság</th>
                     <th>Szorgalom</th>
@@ -61,7 +64,6 @@ $clientsId = $_SESSION["clientsId"];
             <!--  data points from php  -->
             <tr>
                 <td><?php  echo '<a href="big_report.php?id='.$row['userId'].'">Elemzés</a>';  ?></td>   <!--  takes users to specific personality accessment page  -->
-                <td><?php echo $row['userId']; ?></td>
                 <td><?php echo $row['usersVez_nev']; ?></td>
                 <td><?php echo $row['registerTime']; ?></td>
                 <td><?php echo $row['usersEmail']; ?></td>
